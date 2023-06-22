@@ -70,7 +70,7 @@ class MyHomePage extends StatelessWidget {
                           TerceraRuta()), // Nombre de la siguiente ruta
                 );
               },
-              child: Text('LOGIN',
+              child: Text('REGISTER',
                   style: TextStyle(
                       fontSize: 30,
                       fontFamily: 'Jost',
