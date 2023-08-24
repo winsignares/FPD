@@ -1,5 +1,7 @@
 import 'package:appsemillero/Screens/login.dart';
-import 'package:appsemillero/Screens/registrer.dart';
+import 'package:appsemillero/Screens/register.dart';
+
+
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -67,7 +69,7 @@ class MyHomePage extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                       builder: (contxt) =>
-                          TerceraRuta()), // Nombre de la siguiente ruta
+                          regscreen()), // Nombre de la siguiente ruta
                 );
               },
               child: Text('REGISTER',
@@ -95,7 +97,7 @@ class MyHomePage extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                       builder: (contxt) =>
-                          SegundaRuta()), // Nombre de la siguiente ruta
+                          logscreen()), // Nombre de la siguiente ruta
                 );
               },
               child: Text('LOGIN',

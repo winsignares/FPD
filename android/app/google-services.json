@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "45021448541",
+    "project_id": "jojma-b7fc7",
+    "storage_bucket": "jojma-b7fc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45021448541:android:d54632128033cb459440b4",
+        "android_client_info": {
+          "package_name": "com.mysecurityjojma.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45021448541-fnfs47f3o01fn62mf9mapuobibkp8qoc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mysecurityjojma.dev",
+            "certificate_hash": "243c622f154053a5d47e9939e582e3853c3baef1"
+          }
+        },
+        {
+          "client_id": "45021448541-ajmvjo0soob0mjjvaesu0h0nku4ctmjl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKdWmCKbEB_ltv5Ph4bNQCkOSa-UUlB5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45021448541-ai2lv5afhab8idk7qpphdc7v3d0spcp3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "45021448541-4hdmgkvo8m291ih3fgfunakuamlergnk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.practica1jhoan"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
