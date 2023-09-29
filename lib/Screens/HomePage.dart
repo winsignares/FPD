@@ -24,6 +24,6 @@ class HomePageSrc extends StatefulWidget {
 class _HomePageSrcState extends State<HomePageSrc> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(backgroundColor: const Color(0xff448493), leading: IconButton(icon: const Icon(Icons.account_circle, size: 30), onPressed: (){},), actions:[Container(margin: const EdgeInsets.only(right: 5), child: IconButton(onPressed: (){}, icon: const Icon(Icons.settings, size: 30,)),)]));
+    return Scaffold(appBar: AppBar(backgroundColor: const Color(0xff448493), leading: IconButton(icon: const Icon(Icons.account_circle, size: 30), onPressed: (){Scaffold.of(context).openEndDrawer();},), actions:[Container(margin: const EdgeInsets.only(right: 5), child: IconButton(onPressed: (){}, icon: const Icon(Icons.settings, size: 30,)),)]), endDrawer: Drawer(child: ListView(children: [ListTile()],)),);
   }
 }

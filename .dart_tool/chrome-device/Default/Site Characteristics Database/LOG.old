@@ -1,14 +1,11 @@
-2023/09/29-08:43:17.681 2430 Log #3: 3 ops saved to Table #12 OK
-2023/09/29-08:43:17.757 2430 Archiving C:\Users\SOPORTE\AppData\Local\Temp\flutter_tools.29e2f40f\flutter_tools_chrome_device.d512c5ca\Default\Site Characteristics Database/000003.log: OK
-2023/09/29-08:43:17.793 2430 Log #6: 1 ops saved to Table #13 OK
-2023/09/29-08:43:17.901 2430 Archiving C:\Users\SOPORTE\AppData\Local\Temp\flutter_tools.29e2f40f\flutter_tools_chrome_device.d512c5ca\Default\Site Characteristics Database/000006.log: OK
-2023/09/29-08:43:17.946 2430 Log #10: 1 ops saved to Table #14 OK
-2023/09/29-08:43:17.950 2430 Archiving C:\Users\SOPORTE\AppData\Local\Temp\flutter_tools.29e2f40f\flutter_tools_chrome_device.d512c5ca\Default\Site Characteristics Database/000010.log: OK
-2023/09/29-08:43:18.017 2430 Table #4: 3 entries OK
-2023/09/29-08:43:18.053 2430 Table #6: 3 entries OK
-2023/09/29-08:43:18.097 2430 Table #11: 2 entries OK
-2023/09/29-08:43:18.098 2430 Table #12: 3 entries OK
-2023/09/29-08:43:18.098 2430 Table #13: 1 entries OK
-2023/09/29-08:43:18.098 2430 Table #14: 1 entries OK
-2023/09/29-08:43:18.190 2430 Archiving C:\Users\SOPORTE\AppData\Local\Temp\flutter_tools.29e2f40f\flutter_tools_chrome_device.d512c5ca\Default\Site Characteristics Database/MANIFEST-000001: OK
-2023/09/29-08:43:18.207 2430 **** Repaired leveldb C:\Users\SOPORTE\AppData\Local\Temp\flutter_tools.29e2f40f\flutter_tools_chrome_device.d512c5ca\Default\Site Characteristics Database; recovered 6 files; 1172 bytes. Some data may have been lost. ****
+2023/09/29-08:43:18.230 2430 Reusing MANIFEST C:\Users\SOPORTE\AppData\Local\Temp\flutter_tools.29e2f40f\flutter_tools_chrome_device.d512c5ca\Default\Site Characteristics Database/MANIFEST-000001
+2023/09/29-08:43:18.233 4be0 Compacting 6@0 + 0@1 files
+2023/09/29-08:43:18.241 4be0 Generated table #17@0: 2 keys, 191 bytes
+2023/09/29-08:43:18.241 4be0 Compacted 6@0 + 0@1 files => 191 bytes
+2023/09/29-08:43:18.242 4be0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2023/09/29-08:43:18.243 4be0 Delete type=2 #4
+2023/09/29-08:43:18.243 4be0 Delete type=2 #6
+2023/09/29-08:43:18.243 4be0 Delete type=2 #11
+2023/09/29-08:43:18.244 4be0 Delete type=2 #12
+2023/09/29-08:43:18.244 4be0 Delete type=2 #13
+2023/09/29-08:43:18.244 4be0 Delete type=2 #14
