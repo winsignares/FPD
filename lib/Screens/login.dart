@@ -1,4 +1,5 @@
 import 'package:appsemillero/Screens/homepage.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_login_facebook/flutter_login_facebook.dart';
@@ -9,7 +10,6 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import '/firebase_options.dart';
-
 
 class loginscreen extends StatelessWidget {
   const loginscreen({super.key});
@@ -115,63 +115,82 @@ class _logscreenState extends State<logscreen> {
                 obscureText: true,
               ),
             ),
-            Container(
-              height: 50,
-              padding: EdgeInsets.only(top: 0),
-              margin: EdgeInsets.only(left: 75, right: 75, top: 30),
-              child: ElevatedButton(
-                onPressed: () async {
-                  users = user.text;
-                  passwords = password.text;
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  height: 50,
+                  padding: EdgeInsets.only(top: 0),
+                  margin: EdgeInsets.only(left: 10, right: 15, top: 30),
+                  child: ElevatedButton(
+                    onPressed: () async {
+                      users = user.text;
+                      passwords = password.text;
 
-                  if (users == "" || passwords == "") {
-                    showDialog(
-                      context: context,
-                      builder: (BuildContext context) {
-                        return AlertDialog(
-                          title: Text('Warning'),
-                          content: Text('Some places are void'),
-                          actions: [
-                            ElevatedButton(
-                              style: ElevatedButton.styleFrom(
-                                  backgroundColor: Color(0xff448493),
-                                  shape: RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(18))),
-                              onPressed: () {
-                                Navigator.of(context)
-                                    .pop(); // cierra el dialogo
-                              },
-                              child: Text(
-                                'Retry',
-                                style: TextStyle(
-                                  fontFamily: "mregular",
+                      if (users == "" || passwords == "") {
+                        showDialog(
+                          context: context,
+                          builder: (BuildContext context) {
+                            return AlertDialog(
+                              title: Text('Warning'),
+                              content: Text('Some places are void'),
+                              actions: [
+                                ElevatedButton(
+                                  style: ElevatedButton.styleFrom(
+                                      backgroundColor: Color(0xff448493),
+                                      shape: RoundedRectangleBorder(
+                                          borderRadius:
+                                              BorderRadius.circular(18))),
+                                  onPressed: () {
+                                    Navigator.of(context)
+                                        .pop(); // cierra el dialogo
+                                  },
+                                  child: Text(
+                                    'Retry',
+                                    style: TextStyle(
+                                      fontFamily: "mregular",
+                                    ),
+                                  ),
                                 ),
-                              ),
-                            ),
-                          ],
+                              ],
+                            );
+                          },
                         );
-                      },
-                    );
-                  } else {
-                    login();
-                  }
-                },
-                child: Text(
-                  "ENTER",
-                  style: TextStyle(
-                    fontSize: 20,
-                    fontFamily: "mregular",
-                    color: Colors.white,
+                      } else {
+                        login();
+                      }
+                    },
+                    child: Text(
+                      "ENTER",
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontFamily: "mregular",
+                        color: Colors.white,
+                      ),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                        padding: EdgeInsets.symmetric(horizontal: 80),
+                        backgroundColor: Color(0xff448493),
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(30))),
                   ),
                 ),
-                style: ElevatedButton.styleFrom(
-                    minimumSize: Size(double.infinity, 50),
-                    // Ancho extendido y altura de 50
-                    padding: EdgeInsets.symmetric(horizontal: 20),
-                    backgroundColor: Color(0xff448493),
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(30))),
-              ),
+                Container(
+                  height: 50,
+                  padding: EdgeInsets.only(top: 0),
+                  margin: EdgeInsets.only(top: 30),
+                  child: IconButton(
+                    onPressed: () async {
+                      await _authenticate();
+                    },
+                    icon: Icon(
+                      Icons.fingerprint,
+                    ),
+                    color: Color(0xff448493),
+                    iconSize: 33,
+                  ),
+                ),
+              ],
             ),
             Container(
               margin: EdgeInsets.only(left: 100, right: 100),
@@ -240,7 +259,6 @@ class _logscreenState extends State<logscreen> {
                   ),
                 ],
               ),
-
               alignment: Alignment.bottomCenter,
             )
           ],
@@ -300,6 +318,7 @@ class _logscreenState extends State<logscreen> {
         setState(() {
           user.text = storedUser;
           password.text = storedPassword;
+          login();
         });
       }
     }
@@ -320,8 +339,7 @@ class _logscreenState extends State<logscreen> {
       Navigator.push(
         context,
         MaterialPageRoute(
-            builder: (contxt) =>
-                homepage()), // Nombre de la siguiente ruta
+            builder: (contxt) => homepage()), // Nombre de la siguiente ruta
       );
     }
   }
