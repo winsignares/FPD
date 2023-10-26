@@ -1,4 +1,4 @@
-import 'package:appsemillero/Screens/home_page.dart';
+import 'package:appsemillero/Screens/homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_login_facebook/flutter_login_facebook.dart';
@@ -9,7 +9,7 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import '/firebase_options.dart';
-import 'package:appsemillero/Screens/home_page.dart';
+
 
 class loginscreen extends StatelessWidget {
   const loginscreen({super.key});
@@ -53,6 +53,7 @@ class _logscreenState extends State<logscreen> {
     return Scaffold(
       backgroundColor: Color(0xffffffff),
       body: SingleChildScrollView(
+        physics: NeverScrollableScrollPhysics(),
         child: Column(
           children: [
             Container(
@@ -190,10 +191,12 @@ class _logscreenState extends State<logscreen> {
               padding: EdgeInsets.only(top: 35),
               child: TextButton(
                 onPressed: () {
-                  Navigator.of(context).pushReplacement(
-                      MaterialPageRoute<Null>(builder: (BuildContext context) {
-                    return new regscreen();
-                  }));
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (contxt) =>
+                            regscreen()), // Nombre de la siguiente ruta
+                  );
                 },
                 child: Text(
                   "Don't have account yet? Sign up.",
@@ -213,6 +216,7 @@ class _logscreenState extends State<logscreen> {
               ),
             ),
             Container(
+              margin: EdgeInsets.only(top: 20),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -222,22 +226,21 @@ class _logscreenState extends State<logscreen> {
                     },
                     icon: Image.asset("assets/fblogo.png",
                         width: 50, height: 100),
+                    iconSize: 50,
                   ),
                   SizedBox(
-                    width: 40,
+                    width: 30,
                   ),
                   IconButton(
                     onPressed: () async {
                       await signInWithGoogle();
                     },
                     icon: Image.asset("assets/gmaillogo.png", width: 50),
+                    iconSize: 50,
                   ),
                 ],
               ),
-              padding: EdgeInsets.only(
-                left: 100,
-                right: 100,
-              ),
+
               alignment: Alignment.bottomCenter,
             )
           ],
@@ -314,10 +317,12 @@ class _logscreenState extends State<logscreen> {
     String? storedPassword = await _storage.read(key: 'password');
     String? storedEmail = await _storage.read(key: 'email');
     if (storedUsuario == user.text && storedPassword == password.text) {
-      Navigator.of(context)
-          .push(MaterialPageRoute<Null>(builder: (BuildContext context) {
-        return new MyHomePage(title: 'My home page');
-      }));
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (contxt) =>
+                homepage()), // Nombre de la siguiente ruta
+      );
     }
   }
 

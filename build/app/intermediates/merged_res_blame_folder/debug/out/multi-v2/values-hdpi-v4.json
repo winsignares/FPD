@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.mysecurityjojma.dev.app-mergeDebugResources-39:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/blaskevors/.gradle/caches/transforms-3/7e7dcfe933ffaf5b73d743d6d8299ea3/transformed/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

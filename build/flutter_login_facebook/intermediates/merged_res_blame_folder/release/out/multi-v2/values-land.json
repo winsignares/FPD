@@ -4,7 +4,7 @@
             "outputFile": "ru.innim.flutter_login_facebook-mergeReleaseResources-20:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Jhoan's\\.gradle\\caches\\transforms-3\\8fb569f256970985c8c9a4426a816fa7\\transformed\\appcompat-1.1.0\\res\\values-land\\values-land.xml",
+                    "source": "/home/blaskevors/.gradle/caches/transforms-3/8fb569f256970985c8c9a4426a816fa7/transformed/appcompat-1.1.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -19,7 +19,7 @@
             "outputFile": "ru.innim.flutter_login_facebook-merged_res-22:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Jhoan's\\.gradle\\caches\\transforms-3\\8fb569f256970985c8c9a4426a816fa7\\transformed\\appcompat-1.1.0\\res\\values-land\\values-land.xml",
+                    "source": "/home/blaskevors/.gradle/caches/transforms-3/8fb569f256970985c8c9a4426a816fa7/transformed/appcompat-1.1.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

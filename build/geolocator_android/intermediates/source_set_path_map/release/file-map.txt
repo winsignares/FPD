@@ -1,0 +1,15 @@
+com.baseflow.geolocator.geolocator_android-jetified-window-java-1.0.0-beta04-0 /home/blaskevors/.gradle/caches/transforms-3/093e898f4440614af53899eecadaafb1/transformed/jetified-window-java-1.0.0-beta04/res
+com.baseflow.geolocator.geolocator_android-lifecycle-runtime-2.3.1-1 /home/blaskevors/.gradle/caches/transforms-3/20098ffdac8b2057ec2f793f7fe5dab4/transformed/lifecycle-runtime-2.3.1/res
+com.baseflow.geolocator.geolocator_android-jetified-window-1.0.0-beta04-2 /home/blaskevors/.gradle/caches/transforms-3/7f51fb07831536b28ca5194da446da04/transformed/jetified-window-1.0.0-beta04/res
+com.baseflow.geolocator.geolocator_android-jetified-annotation-experimental-1.3.0-3 /home/blaskevors/.gradle/caches/transforms-3/9da517aebef3ca7ee44fce67c640cc32/transformed/jetified-annotation-experimental-1.3.0/res
+com.baseflow.geolocator.geolocator_android-jetified-play-services-base-18.1.0-4 /home/blaskevors/.gradle/caches/transforms-3/a8b8b21d5e94a6fc88fb1ca64074115a/transformed/jetified-play-services-base-18.1.0/res
+com.baseflow.geolocator.geolocator_android-jetified-play-services-basement-18.1.0-5 /home/blaskevors/.gradle/caches/transforms-3/d1c0f7fe3284a07a251885da1583a88b/transformed/jetified-play-services-basement-18.1.0/res
+com.baseflow.geolocator.geolocator_android-core-1.9.0-6 /home/blaskevors/.gradle/caches/transforms-3/f0ed66b4ade954bb7684b3f0181e9486/transformed/core-1.9.0/res
+com.baseflow.geolocator.geolocator_android-main-7 /home/blaskevors/.pub-cache/hosted/pub.dev/geolocator_android-4.3.1/android/src/main/res
+com.baseflow.geolocator.geolocator_android-release-8 /home/blaskevors/.pub-cache/hosted/pub.dev/geolocator_android-4.3.1/android/src/release/res
+com.baseflow.geolocator.geolocator_android-pngs-9 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/generated/res/pngs/release
+com.baseflow.geolocator.geolocator_android-resValues-10 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/generated/res/resValues/release
+com.baseflow.geolocator.geolocator_android-rs-11 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/generated/res/rs/release
+com.baseflow.geolocator.geolocator_android-mergeReleaseResources-12 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.baseflow.geolocator.geolocator_android-mergeReleaseResources-13 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.baseflow.geolocator.geolocator_android-merged_res-14 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/intermediates/merged_res/release
