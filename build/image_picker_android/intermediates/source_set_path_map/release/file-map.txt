@@ -15,10 +15,10 @@ io.flutter.plugins.imagepicker.image_picker_android-jetified-core-ktx-1.10.1-13 
 io.flutter.plugins.imagepicker.image_picker_android-lifecycle-livedata-core-2.6.1-14 /home/blaskevors/.gradle/caches/transforms-3/f721a13bf29f445fd05c6eeb1206b18b/transformed/lifecycle-livedata-core-2.6.1/res
 io.flutter.plugins.imagepicker.image_picker_android-main-15 /home/blaskevors/.pub-cache/hosted/pub.dev/image_picker_android-0.8.8+1/android/src/main/res
 io.flutter.plugins.imagepicker.image_picker_android-release-16 /home/blaskevors/.pub-cache/hosted/pub.dev/image_picker_android-0.8.8+1/android/src/release/res
-io.flutter.plugins.imagepicker.image_picker_android-packaged_res-17 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_plugin_android_lifecycle/intermediates/packaged_res/release
-io.flutter.plugins.imagepicker.image_picker_android-pngs-18 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/generated/res/pngs/release
-io.flutter.plugins.imagepicker.image_picker_android-resValues-19 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/generated/res/resValues/release
-io.flutter.plugins.imagepicker.image_picker_android-rs-20 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/generated/res/rs/release
-io.flutter.plugins.imagepicker.image_picker_android-mergeReleaseResources-21 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
-io.flutter.plugins.imagepicker.image_picker_android-mergeReleaseResources-22 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-io.flutter.plugins.imagepicker.image_picker_android-merged_res-23 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/intermediates/merged_res/release
+io.flutter.plugins.imagepicker.image_picker_android-packaged_res-17 /home/blaskevors/Desktop/Workspace/FPD/build/flutter_plugin_android_lifecycle/intermediates/packaged_res/release
+io.flutter.plugins.imagepicker.image_picker_android-pngs-18 /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/generated/res/pngs/release
+io.flutter.plugins.imagepicker.image_picker_android-resValues-19 /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/generated/res/resValues/release
+io.flutter.plugins.imagepicker.image_picker_android-rs-20 /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/generated/res/rs/release
+io.flutter.plugins.imagepicker.image_picker_android-mergeReleaseResources-21 /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.imagepicker.image_picker_android-mergeReleaseResources-22 /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.imagepicker.image_picker_android-merged_res-23 /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_res/release

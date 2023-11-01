@@ -5730,7 +5730,6 @@ androidx.core.math.MathUtils:
     public static int addExact(int,int)
     public static long addExact(long,long)
     public static double clamp(double,double,double)
-    public static float clamp(float,float,float)
     public static long clamp(long,long,long)
     public static int decrementExact(int)
     public static long decrementExact(long)
@@ -21337,7 +21336,6 @@ io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding:
     public io.flutter.embedding.engine.FlutterEngineGroup getEngineGroup()
     public io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterAssets getFlutterAssets()
     public io.flutter.embedding.engine.FlutterEngine getFlutterEngine()
-    public io.flutter.view.TextureRegistry getTextureRegistry()
 io.flutter.embedding.engine.plugins.PluginRegistry:
     public abstract void add(java.util.Set)
     public abstract io.flutter.embedding.engine.plugins.FlutterPlugin get(java.lang.Class)
@@ -21376,19 +21374,13 @@ io.flutter.embedding.engine.plugins.shim.ShimRegistrar
 io.flutter.embedding.engine.plugins.util.GeneratedPluginRegister:
     private static final java.lang.String TAG
     public void <init>()
-io.flutter.embedding.engine.renderer.FlutterRenderer$SurfaceTextureRegistryEntry:
-    public void release()
-    private void removeListener()
 io.flutter.embedding.engine.renderer.FlutterRenderer$ViewportMetrics:
     public static final int unsetValue
 io.flutter.embedding.engine.renderer.FlutterRenderer:
     private static final java.lang.String TAG
-    static synthetic void access$600(io.flutter.embedding.engine.renderer.FlutterRenderer,long)
     public void dispatchSemanticsAction(int,int,java.nio.ByteBuffer,int)
     public android.graphics.Bitmap getBitmap()
-    void removeOnTrimMemoryListener(io.flutter.view.TextureRegistry$OnTrimMemoryListener)
     public void setAccessibilityFeatures(int)
-    private void unregisterTexture(long)
 io.flutter.embedding.engine.systemchannels.AccessibilityChannel:
     private static final java.lang.String TAG
 io.flutter.embedding.engine.systemchannels.DeferredComponentChannel:
@@ -21550,6 +21542,148 @@ io.flutter.plugin.platform.VirtualDisplayController:
     public void dispose()
     void onFlutterViewAttached(android.view.View)
     void onFlutterViewDetached()
+io.flutter.plugins.camera.BuildConfig
+io.flutter.plugins.camera.Camera$HandlerFactory:
+    void <init>()
+io.flutter.plugins.camera.Camera$HandlerThreadFactory:
+    void <init>()
+io.flutter.plugins.camera.Camera:
+    private static final java.lang.String TAG
+    private android.view.Display getDefaultDisplay()
+io.flutter.plugins.camera.CameraCaptureCallback:
+    private static final java.lang.String TAG
+io.flutter.plugins.camera.CameraPermissions:
+    private static final java.lang.String AUDIO_ACCESS_DENIED
+    private static final java.lang.String AUDIO_ACCESS_DENIED_MESSAGE
+    private static final java.lang.String CAMERA_ACCESS_DENIED
+    private static final java.lang.String CAMERA_ACCESS_DENIED_MESSAGE
+    private static final java.lang.String CAMERA_PERMISSIONS_REQUEST_ONGOING
+    private static final java.lang.String CAMERA_PERMISSIONS_REQUEST_ONGOING_MESSAGE
+    private static final int CAMERA_REQUEST_ID
+io.flutter.plugins.camera.CameraPlugin:
+    private static final java.lang.String TAG
+    public static void registerWith(io.flutter.plugin.common.PluginRegistry$Registrar)
+io.flutter.plugins.camera.CameraProperties:
+    public abstract int getHardwareLevel()
+io.flutter.plugins.camera.CameraPropertiesImpl:
+    public int getHardwareLevel()
+io.flutter.plugins.camera.CameraRegionUtils$MeteringRectangleFactory:
+    void <init>()
+io.flutter.plugins.camera.CameraRegionUtils$SizeFactory:
+    void <init>()
+io.flutter.plugins.camera.CameraUtils:
+    private void <init>()
+io.flutter.plugins.camera.DartMessenger:
+    private void send(io.flutter.plugins.camera.DartMessenger$DeviceEventType)
+io.flutter.plugins.camera.DeviceInfo:
+    public void <init>()
+io.flutter.plugins.camera.ImageSaver$FileOutputStreamFactory:
+    void <init>()
+io.flutter.plugins.camera.R$attr
+io.flutter.plugins.camera.R$color
+io.flutter.plugins.camera.R$dimen
+io.flutter.plugins.camera.R$drawable
+io.flutter.plugins.camera.R$id
+io.flutter.plugins.camera.R$integer
+io.flutter.plugins.camera.R$layout
+io.flutter.plugins.camera.R$string
+io.flutter.plugins.camera.R$style
+io.flutter.plugins.camera.R$styleable
+io.flutter.plugins.camera.R
+io.flutter.plugins.camera.SdkCapabilityChecker:
+    public void <init>()
+io.flutter.plugins.camera.VideoRenderer:
+    private static final java.lang.String fragmentShaderCode
+    private static final java.lang.String vertexShaderCode
+io.flutter.plugins.camera.features.CameraFeature:
+    public abstract boolean checkIsSupported()
+    public abstract java.lang.String getDebugName()
+    public abstract java.lang.Object getValue()
+    public abstract void setValue(java.lang.Object)
+io.flutter.plugins.camera.features.CameraFeatures:
+    private static final java.lang.String AUTO_FOCUS
+    private static final java.lang.String EXPOSURE_LOCK
+    private static final java.lang.String EXPOSURE_OFFSET
+    private static final java.lang.String EXPOSURE_POINT
+    private static final java.lang.String FLASH
+    private static final java.lang.String FOCUS_POINT
+    private static final java.lang.String FPS_RANGE
+    private static final java.lang.String NOISE_REDUCTION
+    private static final java.lang.String REGION_BOUNDARIES
+    private static final java.lang.String RESOLUTION
+    private static final java.lang.String SENSOR_ORIENTATION
+    private static final java.lang.String ZOOM_LEVEL
+    public io.flutter.plugins.camera.features.fpsrange.FpsRangeFeature getFpsRange()
+    public io.flutter.plugins.camera.features.noisereduction.NoiseReductionFeature getNoiseReduction()
+io.flutter.plugins.camera.features.autofocus.AutoFocusFeature:
+    public java.lang.String getDebugName()
+    public synthetic bridge java.lang.Object getValue()
+    public synthetic bridge void setValue(java.lang.Object)
+io.flutter.plugins.camera.features.exposurelock.ExposureLockFeature:
+    public java.lang.String getDebugName()
+    public synthetic bridge java.lang.Object getValue()
+    public synthetic bridge void setValue(java.lang.Object)
+io.flutter.plugins.camera.features.exposureoffset.ExposureOffsetFeature:
+    public java.lang.String getDebugName()
+    public synthetic bridge java.lang.Object getValue()
+    public synthetic bridge void setValue(java.lang.Object)
+io.flutter.plugins.camera.features.exposurepoint.ExposurePointFeature:
+    public java.lang.String getDebugName()
+    public io.flutter.plugins.camera.features.Point getValue()
+    public synthetic bridge java.lang.Object getValue()
+    public synthetic bridge void setValue(java.lang.Object)
+io.flutter.plugins.camera.features.flash.FlashFeature:
+    public java.lang.String getDebugName()
+    public io.flutter.plugins.camera.features.flash.FlashMode getValue()
+    public synthetic bridge java.lang.Object getValue()
+    public synthetic bridge void setValue(java.lang.Object)
+io.flutter.plugins.camera.features.focuspoint.FocusPointFeature:
+    public java.lang.String getDebugName()
+    public io.flutter.plugins.camera.features.Point getValue()
+    public synthetic bridge java.lang.Object getValue()
+    public synthetic bridge void setValue(java.lang.Object)
+io.flutter.plugins.camera.features.fpsrange.FpsRangeFeature:
+    public java.lang.String getDebugName()
+    public android.util.Range getValue()
+    public synthetic bridge java.lang.Object getValue()
+    public void setValue(android.util.Range)
+    public synthetic bridge void setValue(java.lang.Object)
+io.flutter.plugins.camera.features.noisereduction.NoiseReductionFeature:
+    public java.lang.String getDebugName()
+    public io.flutter.plugins.camera.features.noisereduction.NoiseReductionMode getValue()
+    public synthetic bridge java.lang.Object getValue()
+    public void setValue(io.flutter.plugins.camera.features.noisereduction.NoiseReductionMode)
+    public synthetic bridge void setValue(java.lang.Object)
+io.flutter.plugins.camera.features.noisereduction.NoiseReductionMode:
+    public static io.flutter.plugins.camera.features.noisereduction.NoiseReductionMode getValueForString(java.lang.String)
+io.flutter.plugins.camera.features.resolution.ResolutionFeature:
+    public java.lang.String getDebugName()
+    public io.flutter.plugins.camera.features.resolution.ResolutionPreset getValue()
+    public synthetic bridge java.lang.Object getValue()
+    public void setValue(io.flutter.plugins.camera.features.resolution.ResolutionPreset)
+    public synthetic bridge void setValue(java.lang.Object)
+io.flutter.plugins.camera.features.sensororientation.DeviceOrientationManager:
+    io.flutter.embedding.engine.systemchannels.PlatformChannel$DeviceOrientation calculateSensorOrientation(int)
+    int getDeviceDefaultOrientation()
+io.flutter.plugins.camera.features.sensororientation.SensorOrientationFeature:
+    public boolean checkIsSupported()
+    public java.lang.String getDebugName()
+    public java.lang.Integer getValue()
+    public synthetic bridge java.lang.Object getValue()
+    public synthetic bridge void setValue(java.lang.Object)
+io.flutter.plugins.camera.features.zoomlevel.ZoomLevelFeature:
+    public java.lang.String getDebugName()
+    public java.lang.Float getValue()
+    public synthetic bridge java.lang.Object getValue()
+    public synthetic bridge void setValue(java.lang.Object)
+io.flutter.plugins.camera.features.zoomlevel.ZoomUtils:
+    void <init>()
+io.flutter.plugins.camera.media.ImageStreamReader:
+    public void <init>(android.media.ImageReader,int,io.flutter.plugins.camera.media.ImageStreamReaderUtils)
+io.flutter.plugins.camera.types.ExposureMode
+io.flutter.plugins.camera.types.FlashMode
+io.flutter.plugins.camera.types.FocusMode
+io.flutter.plugins.camera.types.ResolutionPreset
 io.flutter.plugins.firebase.auth.BuildConfig
 io.flutter.plugins.firebase.auth.Constants
 io.flutter.plugins.firebase.auth.FlutterFirebaseAuthPlugin:
@@ -22488,8 +22622,6 @@ io.flutter.view.FlutterView$SurfaceTextureRegistryEntry
 io.flutter.view.FlutterView$ViewportMetrics
 io.flutter.view.FlutterView$ZeroSides
 io.flutter.view.FlutterView
-io.flutter.view.TextureRegistry$SurfaceTextureEntry:
-    public abstract void release()
 io.flutter.view.TextureRegistry:
     public void onTrimMemory(int)
     public abstract io.flutter.view.TextureRegistry$SurfaceTextureEntry registerSurfaceTexture(android.graphics.SurfaceTexture)
@@ -29620,6 +29752,13 @@ io.flutter.plugin.common.BinaryMessenger$-CC:
     public static void $default$setMessageHandler(io.flutter.plugin.common.BinaryMessenger,java.lang.String,io.flutter.plugin.common.BinaryMessenger$BinaryMessageHandler,io.flutter.plugin.common.BinaryMessenger$TaskQueue)
 io.flutter.plugin.platform.VirtualDisplayController:
     private static java.lang.String TAG
+io.flutter.plugins.camera.CameraRegionUtils:
+    static final synthetic boolean $assertionsDisabled
+    public void <init>()
+io.flutter.plugins.camera.DartMessenger:
+    static final synthetic boolean $assertionsDisabled
+io.flutter.plugins.camera.MethodCallHandlerImpl:
+    static final synthetic boolean $assertionsDisabled
 io.flutter.plugins.firebase.auth.FlutterFirebaseAuthPlugin:
     static final synthetic boolean $assertionsDisabled
 io.flutter.plugins.firebase.core.GeneratedAndroidFirebaseCore:

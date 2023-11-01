@@ -7,9 +7,9 @@ com.baseflow.geolocator.geolocator_android-jetified-play-services-basement-18.1.
 com.baseflow.geolocator.geolocator_android-core-1.9.0-6 /home/blaskevors/.gradle/caches/transforms-3/f0ed66b4ade954bb7684b3f0181e9486/transformed/core-1.9.0/res
 com.baseflow.geolocator.geolocator_android-main-7 /home/blaskevors/.pub-cache/hosted/pub.dev/geolocator_android-4.3.1/android/src/main/res
 com.baseflow.geolocator.geolocator_android-release-8 /home/blaskevors/.pub-cache/hosted/pub.dev/geolocator_android-4.3.1/android/src/release/res
-com.baseflow.geolocator.geolocator_android-pngs-9 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/generated/res/pngs/release
-com.baseflow.geolocator.geolocator_android-resValues-10 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/generated/res/resValues/release
-com.baseflow.geolocator.geolocator_android-rs-11 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/generated/res/rs/release
-com.baseflow.geolocator.geolocator_android-mergeReleaseResources-12 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
-com.baseflow.geolocator.geolocator_android-mergeReleaseResources-13 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-com.baseflow.geolocator.geolocator_android-merged_res-14 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/intermediates/merged_res/release
+com.baseflow.geolocator.geolocator_android-pngs-9 /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/generated/res/pngs/release
+com.baseflow.geolocator.geolocator_android-resValues-10 /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/generated/res/resValues/release
+com.baseflow.geolocator.geolocator_android-rs-11 /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/generated/res/rs/release
+com.baseflow.geolocator.geolocator_android-mergeReleaseResources-12 /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.baseflow.geolocator.geolocator_android-mergeReleaseResources-13 /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.baseflow.geolocator.geolocator_android-merged_res-14 /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/intermediates/merged_res/release

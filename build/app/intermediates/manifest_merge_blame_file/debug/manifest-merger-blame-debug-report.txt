@@ -13,23 +13,23 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->/home/blaskevors/Downloads/FPD-main/android/app/src/main/AndroidManifest.xml:3:5-66
-15-->/home/blaskevors/Downloads/FPD-main/android/app/src/main/AndroidManifest.xml:3:22-64
+15-->/home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:3:5-66
+15-->/home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:3:22-64
 16    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
-16-->/home/blaskevors/Downloads/FPD-main/android/app/src/main/AndroidManifest.xml:2:5-71
-16-->/home/blaskevors/Downloads/FPD-main/android/app/src/main/AndroidManifest.xml:2:22-69
+16-->/home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:2:5-71
+16-->/home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:2:22-69
 17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-17-->/home/blaskevors/Downloads/FPD-main/android/app/src/main/AndroidManifest.xml:4:5-78
-17-->/home/blaskevors/Downloads/FPD-main/android/app/src/main/AndroidManifest.xml:4:22-76
+17-->/home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:4:5-78
+17-->/home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:4:22-76
 18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-18-->/home/blaskevors/Downloads/FPD-main/android/app/src/main/AndroidManifest.xml:5:5-80
-18-->/home/blaskevors/Downloads/FPD-main/android/app/src/main/AndroidManifest.xml:5:22-78
+18-->/home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:5:5-80
+18-->/home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:5:22-78
 19    <uses-permission android:name="android.permission.CAMERA" />
-19-->/home/blaskevors/Downloads/FPD-main/android/app/src/main/AndroidManifest.xml:6:5-65
-19-->/home/blaskevors/Downloads/FPD-main/android/app/src/main/AndroidManifest.xml:6:22-62
+19-->/home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:6:5-65
+19-->/home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:6:22-62
 20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-20-->[:camera_android] /home/blaskevors/Downloads/FPD-main/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-71
-20-->[:camera_android] /home/blaskevors/Downloads/FPD-main/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-68
+20-->[:camera_android] /home/blaskevors/Desktop/Workspace/FPD/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-71
+20-->[:camera_android] /home/blaskevors/Desktop/Workspace/FPD/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-68
 21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- suppress DeprecatedClassUsageInspection -->
 21-->[com.google.firebase:firebase-auth:22.1.1] /home/blaskevors/.gradle/caches/transforms-3/63ab1573eca7908336f4c0e945625364/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:26:5-79
 21-->[com.google.firebase:firebase-auth:22.1.1] /home/blaskevors/.gradle/caches/transforms-3/63ab1573eca7908336f4c0e945625364/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:26:22-76
@@ -170,25 +170,25 @@
 116            android:value="2" />
 117
 118        <service
-118-->[:firebase_auth] /home/blaskevors/Downloads/FPD-main/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+118-->[:firebase_auth] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
 119            android:name="com.google.firebase.components.ComponentDiscoveryService"
-119-->[:firebase_auth] /home/blaskevors/Downloads/FPD-main/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+119-->[:firebase_auth] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
 120            android:directBootAware="true"
 120-->[com.google.firebase:firebase-common:20.3.3] /home/blaskevors/.gradle/caches/transforms-3/c4e22713682acbc142fa238d2c0712ea/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
 121            android:exported="false" >
 121-->[com.google.firebase:firebase-auth:22.1.1] /home/blaskevors/.gradle/caches/transforms-3/63ab1573eca7908336f4c0e945625364/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:68:13-37
 122            <meta-data
-122-->[:firebase_auth] /home/blaskevors/Downloads/FPD-main/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+122-->[:firebase_auth] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
 123                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-123-->[:firebase_auth] /home/blaskevors/Downloads/FPD-main/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+123-->[:firebase_auth] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
 124                android:value="com.google.firebase.components.ComponentRegistrar" />
-124-->[:firebase_auth] /home/blaskevors/Downloads/FPD-main/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+124-->[:firebase_auth] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 125            <meta-data
-125-->[:firebase_core] /home/blaskevors/Downloads/FPD-main/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+125-->[:firebase_core] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
 126                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-126-->[:firebase_core] /home/blaskevors/Downloads/FPD-main/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+126-->[:firebase_core] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
 127                android:value="com.google.firebase.components.ComponentRegistrar" />
-127-->[:firebase_core] /home/blaskevors/Downloads/FPD-main/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+127-->[:firebase_core] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 128            <meta-data
 128-->[com.google.firebase:firebase-auth:22.1.1] /home/blaskevors/.gradle/caches/transforms-3/63ab1573eca7908336f4c0e945625364/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:69:13-71:85
 129                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
@@ -197,32 +197,32 @@
 130-->[com.google.firebase:firebase-auth:22.1.1] /home/blaskevors/.gradle/caches/transforms-3/63ab1573eca7908336f4c0e945625364/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:71:17-82
 131        </service>
 132        <service
-132-->[:geolocator_android] /home/blaskevors/Downloads/FPD-main/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:56
+132-->[:geolocator_android] /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:56
 133            android:name="com.baseflow.geolocator.GeolocatorLocationService"
-133-->[:geolocator_android] /home/blaskevors/Downloads/FPD-main/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-77
+133-->[:geolocator_android] /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-77
 134            android:enabled="true"
-134-->[:geolocator_android] /home/blaskevors/Downloads/FPD-main/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-35
+134-->[:geolocator_android] /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-35
 135            android:exported="false"
-135-->[:geolocator_android] /home/blaskevors/Downloads/FPD-main/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+135-->[:geolocator_android] /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
 136            android:foregroundServiceType="location" />
-136-->[:geolocator_android] /home/blaskevors/Downloads/FPD-main/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-53
+136-->[:geolocator_android] /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-53
 137
 138        <provider
-138-->[:image_picker_android] /home/blaskevors/Downloads/FPD-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+138-->[:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
 139            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-139-->[:image_picker_android] /home/blaskevors/Downloads/FPD-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+139-->[:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
 140            android:authorities="com.mysecurityjojma.dev.flutter.image_provider"
-140-->[:image_picker_android] /home/blaskevors/Downloads/FPD-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+140-->[:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
 141            android:exported="false"
-141-->[:image_picker_android] /home/blaskevors/Downloads/FPD-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+141-->[:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
 142            android:grantUriPermissions="true" >
-142-->[:image_picker_android] /home/blaskevors/Downloads/FPD-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+142-->[:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
 143            <meta-data
-143-->[:image_picker_android] /home/blaskevors/Downloads/FPD-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+143-->[:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
 144                android:name="android.support.FILE_PROVIDER_PATHS"
-144-->[:image_picker_android] /home/blaskevors/Downloads/FPD-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+144-->[:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
 145                android:resource="@xml/flutter_image_picker_file_paths" />
-145-->[:image_picker_android] /home/blaskevors/Downloads/FPD-main/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+145-->[:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
 146        </provider>
 147
 148        <activity

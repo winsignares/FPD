@@ -19,10 +19,10 @@ io.flutter.plugins.localauth.local_auth_android-jetified-core-ktx-1.10.1-17 /hom
 io.flutter.plugins.localauth.local_auth_android-lifecycle-livedata-core-2.6.1-18 /home/blaskevors/.gradle/caches/transforms-3/f721a13bf29f445fd05c6eeb1206b18b/transformed/lifecycle-livedata-core-2.6.1/res
 io.flutter.plugins.localauth.local_auth_android-main-19 /home/blaskevors/.pub-cache/hosted/pub.dev/local_auth_android-1.0.32/android/src/main/res
 io.flutter.plugins.localauth.local_auth_android-release-20 /home/blaskevors/.pub-cache/hosted/pub.dev/local_auth_android-1.0.32/android/src/release/res
-io.flutter.plugins.localauth.local_auth_android-packaged_res-21 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_plugin_android_lifecycle/intermediates/packaged_res/release
-io.flutter.plugins.localauth.local_auth_android-pngs-22 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/local_auth_android/generated/res/pngs/release
-io.flutter.plugins.localauth.local_auth_android-resValues-23 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/local_auth_android/generated/res/resValues/release
-io.flutter.plugins.localauth.local_auth_android-rs-24 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/local_auth_android/generated/res/rs/release
-io.flutter.plugins.localauth.local_auth_android-mergeReleaseResources-25 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/local_auth_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
-io.flutter.plugins.localauth.local_auth_android-mergeReleaseResources-26 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/local_auth_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-io.flutter.plugins.localauth.local_auth_android-merged_res-27 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/local_auth_android/intermediates/merged_res/release
+io.flutter.plugins.localauth.local_auth_android-packaged_res-21 /home/blaskevors/Desktop/Workspace/FPD/build/flutter_plugin_android_lifecycle/intermediates/packaged_res/release
+io.flutter.plugins.localauth.local_auth_android-pngs-22 /home/blaskevors/Desktop/Workspace/FPD/build/local_auth_android/generated/res/pngs/release
+io.flutter.plugins.localauth.local_auth_android-resValues-23 /home/blaskevors/Desktop/Workspace/FPD/build/local_auth_android/generated/res/resValues/release
+io.flutter.plugins.localauth.local_auth_android-rs-24 /home/blaskevors/Desktop/Workspace/FPD/build/local_auth_android/generated/res/rs/release
+io.flutter.plugins.localauth.local_auth_android-mergeReleaseResources-25 /home/blaskevors/Desktop/Workspace/FPD/build/local_auth_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.localauth.local_auth_android-mergeReleaseResources-26 /home/blaskevors/Desktop/Workspace/FPD/build/local_auth_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.localauth.local_auth_android-merged_res-27 /home/blaskevors/Desktop/Workspace/FPD/build/local_auth_android/intermediates/merged_res/release

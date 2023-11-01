@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_login_facebook/flutter_login_facebook.dart';
 import 'package:appsemillero/Screens/register.dart';
+import 'package:appsemillero/Screens/forgotpassword.dart';
 import 'package:local_auth/local_auth.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:google_sign_in/google_sign_in.dart';
@@ -195,7 +196,14 @@ class _logscreenState extends State<logscreen> {
             Container(
               margin: EdgeInsets.only(left: 100, right: 100),
               child: TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (contxt) =>
+                            forgotpassword()), // Nombre de la siguiente ruta
+                  );
+                },
                 child: Text(
                   "Forgot my password",
                   style: TextStyle(

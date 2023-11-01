@@ -21,23 +21,6 @@
                     }
                 },
                 {
-                    "source": "/home/blaskevors/Downloads/FPD-main/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "2,4,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,186,115",
-                        "endColumns": "59,82,70",
-                        "endOffsets": "110,264,181"
-                    },
-                    "to": {
-                        "startLines": "457,458,462",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "30909,30969,31267",
-                        "endColumns": "59,82,70",
-                        "endOffsets": "30964,31047,31333"
-                    }
-                },
-                {
                     "source": "/home/blaskevors/.gradle/caches/transforms-3/bee6151a2e9a55074d519ff869da6b1f/transformed/jetified-activity-1.7.2/res/values/values.xml",
                     "from": {
                         "startLines": "2,3",
@@ -88,42 +71,6 @@
                         "startOffsets": "7747,18471,18524,18577,18630,126146,126322,126444,126706,126901",
                         "endColumns": "88,52,52,52,52,65,121,60,65,66",
                         "endOffsets": "7831,18519,18572,18625,18678,126207,126439,126500,126767,126963"
-                    }
-                },
-                {
-                    "source": "/home/blaskevors/Downloads/FPD-main/build/app/generated/res/google-services/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,198,279,383,491,611,706",
-                        "endColumns": "142,80,103,107,119,94,71",
-                        "endOffsets": "193,274,378,486,606,701,773"
-                    },
-                    "to": {
-                        "startLines": "456,470,474,475,476,477,479",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "30766,31989,32366,32470,32578,32698,32853",
-                        "endColumns": "142,80,103,107,119,94,71",
-                        "endOffsets": "30904,32065,32465,32573,32693,32788,32920"
-                    }
-                },
-                {
-                    "source": "/home/blaskevors/Downloads/FPD-main/build/local_auth_android/intermediates/packaged_res/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,100,144,190,238",
-                        "endLines": "2,3,4,5,11",
-                        "endColumns": "44,43,45,47,10",
-                        "endOffsets": "95,139,185,233,533"
-                    },
-                    "to": {
-                        "startLines": "66,116,271,272,484",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "3110,6764,17399,17445,33217",
-                        "endLines": "66,116,271,272,489",
-                        "endColumns": "44,43,45,47,10",
-                        "endOffsets": "3150,6803,17440,17488,33512"
                     }
                 },
                 {
@@ -220,20 +167,20 @@
                     }
                 },
                 {
-                    "source": "/home/blaskevors/Downloads/FPD-main/android/app/src/main/res/values/color.xml",
+                    "source": "/home/blaskevors/Desktop/Workspace/FPD/build/app/generated/res/google-services/debug/values/values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endColumns": "41",
-                        "endOffsets": "91"
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,198,279,383,491,611,706",
+                        "endColumns": "142,80,103,107,119,94,71",
+                        "endOffsets": "193,274,378,486,606,701,773"
                     },
                     "to": {
-                        "startLines": "134",
-                        "startColumns": "4",
-                        "startOffsets": "7836",
-                        "endColumns": "41",
-                        "endOffsets": "7873"
+                        "startLines": "456,470,474,475,476,477,479",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "30766,31989,32366,32470,32578,32698,32853",
+                        "endColumns": "142,80,103,107,119,94,71",
+                        "endOffsets": "30904,32065,32465,32573,32693,32788,32920"
                     }
                 },
                 {
@@ -251,25 +198,6 @@
                         "startOffsets": "22825",
                         "endColumns": "42",
                         "endOffsets": "22863"
-                    }
-                },
-                {
-                    "source": "/home/blaskevors/Downloads/FPD-main/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,818",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "476,982"
-                    },
-                    "to": {
-                        "startLines": "1572,1634",
-                        "startColumns": "4,4",
-                        "startOffsets": "102056,104740",
-                        "endLines": "1575,1636",
-                        "endColumns": "12,12",
-                        "endOffsets": "102232,104904"
                     }
                 },
                 {
@@ -344,6 +272,25 @@
                         "endLines": "2265,2271,2281,3456,3460",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "146475,146653,146937,186655,186782"
+                    }
+                },
+                {
+                    "source": "/home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,818",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "476,982"
+                    },
+                    "to": {
+                        "startLines": "1572,1634",
+                        "startColumns": "4,4",
+                        "startOffsets": "102056,104740",
+                        "endLines": "1575,1636",
+                        "endColumns": "12,12",
+                        "endOffsets": "102232,104904"
                     }
                 },
                 {
@@ -438,6 +385,42 @@
                     }
                 },
                 {
+                    "source": "/home/blaskevors/Desktop/Workspace/FPD/build/local_auth_android/intermediates/packaged_res/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,100,144,190,238",
+                        "endLines": "2,3,4,5,11",
+                        "endColumns": "44,43,45,47,10",
+                        "endOffsets": "95,139,185,233,533"
+                    },
+                    "to": {
+                        "startLines": "66,116,271,272,484",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "3110,6764,17399,17445,33217",
+                        "endLines": "66,116,271,272,489",
+                        "endColumns": "44,43,45,47,10",
+                        "endOffsets": "3150,6803,17440,17488,33512"
+                    }
+                },
+                {
+                    "source": "/home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,186,115",
+                        "endColumns": "59,82,70",
+                        "endOffsets": "110,264,181"
+                    },
+                    "to": {
+                        "startLines": "457,458,462",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "30909,30969,31267",
+                        "endColumns": "59,82,70",
+                        "endOffsets": "30964,31047,31333"
+                    }
+                },
+                {
                     "source": "/home/blaskevors/.gradle/caches/transforms-3/7f51fb07831536b28ca5194da446da04/transformed/jetified-window-1.0.0-beta04/res/values/values.xml",
                     "from": {
                         "startLines": "2,7,8,9,10,11,19,23,34,51",
@@ -454,6 +437,23 @@
                         "endLines": "44,45,46,47,339,2235,2239,3420,3432,3440",
                         "endColumns": "11,59,51,44,59,24,24,24,24,24",
                         "endOffsets": "1695,1755,1807,1852,21519,145402,145533,185495,185935,186244"
+                    }
+                },
+                {
+                    "source": "/home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/res/values/color.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endColumns": "41",
+                        "endOffsets": "91"
+                    },
+                    "to": {
+                        "startLines": "134",
+                        "startColumns": "4",
+                        "startOffsets": "7836",
+                        "endColumns": "41",
+                        "endOffsets": "7873"
                     }
                 },
                 {

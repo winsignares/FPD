@@ -4,9 +4,9 @@ io.flutter.plugins.flutter_plugin_android_lifecycle-jetified-window-1.0.0-beta04
 io.flutter.plugins.flutter_plugin_android_lifecycle-core-1.6.0-3 /home/blaskevors/.gradle/caches/transforms-3/ba1a7c5229a4b33653db0004711bbc2c/transformed/core-1.6.0/res
 io.flutter.plugins.flutter_plugin_android_lifecycle-main-4 /home/blaskevors/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.15/android/src/main/res
 io.flutter.plugins.flutter_plugin_android_lifecycle-release-5 /home/blaskevors/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.15/android/src/release/res
-io.flutter.plugins.flutter_plugin_android_lifecycle-pngs-6 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_plugin_android_lifecycle/generated/res/pngs/release
-io.flutter.plugins.flutter_plugin_android_lifecycle-resValues-7 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_plugin_android_lifecycle/generated/res/resValues/release
-io.flutter.plugins.flutter_plugin_android_lifecycle-rs-8 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_plugin_android_lifecycle/generated/res/rs/release
-io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-9 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_plugin_android_lifecycle/intermediates/incremental/release/mergeReleaseResources/merged.dir
-io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-10 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_plugin_android_lifecycle/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-io.flutter.plugins.flutter_plugin_android_lifecycle-merged_res-11 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_plugin_android_lifecycle/intermediates/merged_res/release
+io.flutter.plugins.flutter_plugin_android_lifecycle-pngs-6 /home/blaskevors/Desktop/Workspace/FPD/build/flutter_plugin_android_lifecycle/generated/res/pngs/release
+io.flutter.plugins.flutter_plugin_android_lifecycle-resValues-7 /home/blaskevors/Desktop/Workspace/FPD/build/flutter_plugin_android_lifecycle/generated/res/resValues/release
+io.flutter.plugins.flutter_plugin_android_lifecycle-rs-8 /home/blaskevors/Desktop/Workspace/FPD/build/flutter_plugin_android_lifecycle/generated/res/rs/release
+io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-9 /home/blaskevors/Desktop/Workspace/FPD/build/flutter_plugin_android_lifecycle/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-10 /home/blaskevors/Desktop/Workspace/FPD/build/flutter_plugin_android_lifecycle/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.flutter_plugin_android_lifecycle-merged_res-11 /home/blaskevors/Desktop/Workspace/FPD/build/flutter_plugin_android_lifecycle/intermediates/merged_res/release

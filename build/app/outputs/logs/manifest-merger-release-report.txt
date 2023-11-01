@@ -1,14 +1,14 @@
 -- Merging decision tree log ---
 application
-INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:6:5-53:19
-MERGED from [:firebase_auth] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_auth] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_core] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_core] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
-MERGED from [:geolocator_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
-MERGED from [:geolocator_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
-MERGED from [:image_picker_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
-MERGED from [:image_picker_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
+INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:8:5-55:19
+MERGED from [:firebase_auth] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
 MERGED from [com.facebook.android:facebook-android-sdk:8.2.0] /home/blaskevors/.gradle/caches/transforms-3/9db4d8d1da511513cff7fe94bc61feba/transformed/jetified-facebook-android-sdk-8.2.0/AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-android-sdk:8.2.0] /home/blaskevors/.gradle/caches/transforms-3/9db4d8d1da511513cff7fe94bc61feba/transformed/jetified-facebook-android-sdk-8.2.0/AndroidManifest.xml:28:5-29:19
 MERGED from [com.google.firebase:firebase-auth:22.1.1] /home/blaskevors/.gradle/caches/transforms-3/63ab1573eca7908336f4c0e945625364/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:28:5-73:19
@@ -68,27 +68,28 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] /home/blaskevors/.
 	android:supportsRtl
 		ADDED from [com.facebook.android:facebook-android-sdk:8.2.0] /home/blaskevors/.gradle/caches/transforms-3/9db4d8d1da511513cff7fe94bc61feba/transformed/jetified-facebook-android-sdk-8.2.0/AndroidManifest.xml:28:18-44
 	android:label
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:7:9-37
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:9:9-37
 	android:icon
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:11:9-43
 	android:name
-		INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:8:9-42
+		INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:10:9-42
 manifest
-ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:1:1-55:12
-INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:1:1-55:12
-INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:1:1-55:12
-INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:1:1-55:12
-MERGED from [:firebase_auth] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
-MERGED from [:firebase_core] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
-MERGED from [:geolocator_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
-MERGED from [:google_maps_flutter_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:image_picker_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
-MERGED from [:local_auth_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/local_auth_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:flutter_plugin_android_lifecycle] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:flutter_login_facebook] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_login_facebook/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:google_sign_in_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/google_sign_in_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:flutter_secure_storage] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_secure_storage/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:1:1-57:12
+INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:1:1-57:12
+INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:1:1-57:12
+INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:1:1-57:12
+MERGED from [:firebase_auth] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_core] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:geolocator_android] /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:camera_android] /home/blaskevors/Desktop/Workspace/FPD/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:google_maps_flutter_android] /home/blaskevors/Desktop/Workspace/FPD/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
+MERGED from [:local_auth_android] /home/blaskevors/Desktop/Workspace/FPD/build/local_auth_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:flutter_plugin_android_lifecycle] /home/blaskevors/Desktop/Workspace/FPD/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_login_facebook] /home/blaskevors/Desktop/Workspace/FPD/build/flutter_login_facebook/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:google_sign_in_android] /home/blaskevors/Desktop/Workspace/FPD/build/google_sign_in_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:flutter_secure_storage] /home/blaskevors/Desktop/Workspace/FPD/build/flutter_secure_storage/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.android:facebook-android-sdk:8.2.0] /home/blaskevors/.gradle/caches/transforms-3/9db4d8d1da511513cff7fe94bc61feba/transformed/jetified-facebook-android-sdk-8.2.0/AndroidManifest.xml:21:1-31:12
 MERGED from [com.google.firebase:firebase-auth:22.1.1] /home/blaskevors/.gradle/caches/transforms-3/63ab1573eca7908336f4c0e945625364/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:17:1-75:12
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/blaskevors/.gradle/caches/transforms-3/d13f85a74b2ddcacea25b0db65795ae3/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:2:1-10:12
@@ -160,35 +161,35 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /home/blaskevors/.gradle/
 MERGED from [androidx.print:print:1.0.0] /home/blaskevors/.gradle/caches/transforms-3/48cea0f9d2e5cf1fea0ebc3e7a316aae/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/blaskevors/.gradle/caches/transforms-3/9da517aebef3ca7ee44fce67c640cc32/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] /home/blaskevors/.gradle/caches/transforms-3/455a04959b698f79a7ec9c6ce5827295/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
-INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:1:1-55:12
-INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:1:1-55:12
-INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:1:1-55:12
+INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:1:1-57:12
+INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:1:1-57:12
+INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:1:1-57:12
 	package
-		INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:1:1-55:12
-		INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:1:1-57:12
+		INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:1:1-55:12
-		INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:1:1-57:12
+		INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:1:1-55:12
-		INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:1:1-57:12
+		INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.USE_BIOMETRIC
-ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:2:5-71
-MERGED from [:local_auth_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/local_auth_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-72
-MERGED from [:local_auth_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/local_auth_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-72
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:2:5-71
+MERGED from [:local_auth_android] /home/blaskevors/Desktop/Workspace/FPD/build/local_auth_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-72
+MERGED from [:local_auth_android] /home/blaskevors/Desktop/Workspace/FPD/build/local_auth_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-72
 MERGED from [androidx.biometric:biometric:1.1.0] /home/blaskevors/.gradle/caches/transforms-3/c2603db78c1dfb141d2d34c86103de9b/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
 MERGED from [androidx.biometric:biometric:1.1.0] /home/blaskevors/.gradle/caches/transforms-3/c2603db78c1dfb141d2d34c86103de9b/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
 	android:name
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:2:22-69
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:2:22-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:3:5-66
-MERGED from [:google_sign_in_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/google_sign_in_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
-MERGED from [:google_sign_in_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/google_sign_in_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:3:5-66
+MERGED from [:google_sign_in_android] /home/blaskevors/Desktop/Workspace/FPD/build/google_sign_in_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:google_sign_in_android] /home/blaskevors/Desktop/Workspace/FPD/build/google_sign_in_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
 MERGED from [com.google.firebase:firebase-auth:22.1.1] /home/blaskevors/.gradle/caches/transforms-3/63ab1573eca7908336f4c0e945625364/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-auth:22.1.1] /home/blaskevors/.gradle/caches/transforms-3/63ab1573eca7908336f4c0e945625364/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/blaskevors/.gradle/caches/transforms-3/d13f85a74b2ddcacea25b0db65795ae3/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
@@ -196,39 +197,47 @@ MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/blaskevors/.gr
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/blaskevors/.gradle/caches/transforms-3/3cf3a98285d473d4cd22dc29f19db331/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/blaskevors/.gradle/caches/transforms-3/3cf3a98285d473d4cd22dc29f19db331/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:3:22-64
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:3:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:4:5-78
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:4:5-78
 	android:name
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:4:22-76
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:4:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:5:5-80
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:5:5-80
 	android:name
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:5:22-78
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:6:5-65
+MERGED from [:camera_android] /home/blaskevors/Desktop/Workspace/FPD/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-65
+MERGED from [:camera_android] /home/blaskevors/Desktop/Workspace/FPD/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:6:22-62
 uses-sdk
-INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml
-MERGED from [:firebase_auth] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_auth] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_core] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_core] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:geolocator_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:geolocator_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:google_maps_flutter_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:google_maps_flutter_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:image_picker_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:image_picker_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:local_auth_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/local_auth_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:local_auth_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/local_auth_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_plugin_android_lifecycle] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_plugin_android_lifecycle] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_login_facebook] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_login_facebook/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_login_facebook] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_login_facebook/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:google_sign_in_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/google_sign_in_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:google_sign_in_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/google_sign_in_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_secure_storage] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_secure_storage/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-9:53
-MERGED from [:flutter_secure_storage] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_secure_storage/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-9:53
+INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_auth] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:camera_android] /home/blaskevors/Desktop/Workspace/FPD/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:camera_android] /home/blaskevors/Desktop/Workspace/FPD/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /home/blaskevors/Desktop/Workspace/FPD/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /home/blaskevors/Desktop/Workspace/FPD/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:local_auth_android] /home/blaskevors/Desktop/Workspace/FPD/build/local_auth_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:local_auth_android] /home/blaskevors/Desktop/Workspace/FPD/build/local_auth_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /home/blaskevors/Desktop/Workspace/FPD/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /home/blaskevors/Desktop/Workspace/FPD/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_login_facebook] /home/blaskevors/Desktop/Workspace/FPD/build/flutter_login_facebook/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_login_facebook] /home/blaskevors/Desktop/Workspace/FPD/build/flutter_login_facebook/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_sign_in_android] /home/blaskevors/Desktop/Workspace/FPD/build/google_sign_in_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_sign_in_android] /home/blaskevors/Desktop/Workspace/FPD/build/google_sign_in_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_secure_storage] /home/blaskevors/Desktop/Workspace/FPD/build/flutter_secure_storage/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-9:53
+MERGED from [:flutter_secure_storage] /home/blaskevors/Desktop/Workspace/FPD/build/flutter_secure_storage/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-9:53
 MERGED from [com.facebook.android:facebook-android-sdk:8.2.0] /home/blaskevors/.gradle/caches/transforms-3/9db4d8d1da511513cff7fe94bc61feba/transformed/jetified-facebook-android-sdk-8.2.0/AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-android-sdk:8.2.0] /home/blaskevors/.gradle/caches/transforms-3/9db4d8d1da511513cff7fe94bc61feba/transformed/jetified-facebook-android-sdk-8.2.0/AndroidManifest.xml:24:5-26:41
 MERGED from [com.google.firebase:firebase-auth:22.1.1] /home/blaskevors/.gradle/caches/transforms-3/63ab1573eca7908336f4c0e945625364/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:21:5-23:64
@@ -371,112 +380,112 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/blaskevors
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/blaskevors/.gradle/caches/transforms-3/9da517aebef3ca7ee44fce67c640cc32/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.installreferrer:installreferrer:1.0] /home/blaskevors/.gradle/caches/transforms-3/455a04959b698f79a7ec9c6ce5827295/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.installreferrer:installreferrer:1.0] /home/blaskevors/.gradle/caches/transforms-3/455a04959b698f79a7ec9c6ce5827295/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
-INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [:flutter_secure_storage] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_secure_storage/intermediates/merged_manifest/release/AndroidManifest.xml:9:9-50
+		ADDED from [:flutter_secure_storage] /home/blaskevors/Desktop/Workspace/FPD/build/flutter_secure_storage/intermediates/merged_manifest/release/AndroidManifest.xml:9:9-50
 	android:targetSdkVersion
-		INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:11:9-107
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:13:9-107
 	android:value
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:11:66-105
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:13:66-105
 	android:name
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:11:20-65
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:13:20-65
 meta-data#com.facebook.sdk.ClientToken
-ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:12:9-111
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:14:9-111
 	android:value
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:12:64-109
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:14:64-109
 	android:name
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:12:20-63
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:14:20-63
 activity#com.facebook.FacebookActivity
-ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:13:9-16:39
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:15:9-18:39
 MERGED from [com.facebook.android:facebook-common:16.0.1] /home/blaskevors/.gradle/caches/transforms-3/43dbe37f0c83fba6582ac7053a53f1dd/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:22:9-25:66
 MERGED from [com.facebook.android:facebook-common:16.0.1] /home/blaskevors/.gradle/caches/transforms-3/43dbe37f0c83fba6582ac7053a53f1dd/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:22:9-25:66
 	android:label
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:16:13-36
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:18:13-36
 	android:configChanges
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:14:13-113
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:16:13-113
 	android:theme
 		ADDED from [com.facebook.android:facebook-common:16.0.1] /home/blaskevors/.gradle/caches/transforms-3/43dbe37f0c83fba6582ac7053a53f1dd/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:25:13-63
 	android:name
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:13:19-63
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:15:19-63
 activity#com.facebook.CustomTabActivity
-ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:17:9-26:20
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:19:9-28:20
 MERGED from [com.facebook.android:facebook-common:16.0.1] /home/blaskevors/.gradle/caches/transforms-3/43dbe37f0c83fba6582ac7053a53f1dd/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:27:9-41:20
 MERGED from [com.facebook.android:facebook-common:16.0.1] /home/blaskevors/.gradle/caches/transforms-3/43dbe37f0c83fba6582ac7053a53f1dd/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:27:9-41:20
 	tools:node
 		ADDED from [com.facebook.android:facebook-common:16.0.1] /home/blaskevors/.gradle/caches/transforms-3/43dbe37f0c83fba6582ac7053a53f1dd/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:30:13-31
 	android:exported
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:19:13-36
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:21:13-36
 	android:name
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:18:13-58
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:20:13-58
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
-ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:20:13-25:29
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:22:13-27:29
 action#android.intent.action.VIEW
-ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.DEFAULT
-ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:22:17-76
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:24:17-76
 	android:name
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:22:27-73
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:24:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:23:17-78
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:25:17-78
 	android:name
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:23:27-75
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:25:27-75
 data
-ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:24:17-75
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:26:17-75
 	android:scheme
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:24:23-72
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:26:23-72
 activity#com.mysecurityjojma.dev.MainActivity
-ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:27:9-47:20
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:29:9-49:20
 	android:launchMode
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:30:13-43
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:32:13-43
 	android:hardwareAccelerated
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:33:13-47
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:35:13-47
 	android:windowSoftInputMode
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:34:13-55
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:36:13-55
 	android:exported
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:29:13-36
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:31:13-36
 	android:configChanges
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:32:13-163
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:34:13-163
 	android:theme
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:31:13-47
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:33:13-47
 	android:name
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:28:13-41
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:30:13-41
 meta-data#io.flutter.embedding.android.NormalTheme
-ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:39:13-42:17
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:41:13-44:17
 	android:resource
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:41:15-52
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:43:15-52
 	android:name
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:40:15-70
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:42:15-70
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:43:13-46:29
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:45:13-48:29
 action#android.intent.action.MAIN
-ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:44:17-68
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:46:17-68
 	android:name
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:44:25-66
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:46:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:45:17-76
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:47:17-76
 	android:name
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:45:27-74
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:47:27-74
 meta-data#flutterEmbedding
-ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:50:9-52:33
+ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:52:9-54:33
 	android:value
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:52:13-30
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:54:13-30
 	android:name
-		ADDED from /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android/app/src/main/AndroidManifest.xml:51:13-44
+		ADDED from /home/blaskevors/Desktop/Workspace/FPD/android/app/src/main/AndroidManifest.xml:53:13-44
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_auth] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_core] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_core] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+ADDED from [:firebase_auth] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
 MERGED from [com.google.firebase:firebase-auth:22.1.1] /home/blaskevors/.gradle/caches/transforms-3/63ab1573eca7908336f4c0e945625364/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-auth:22.1.1] /home/blaskevors/.gradle/caches/transforms-3/63ab1573eca7908336f4c0e945625364/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-common:20.3.3] /home/blaskevors/.gradle/caches/transforms-3/c4e22713682acbc142fa238d2c0712ea/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:32:9-36:35
@@ -488,45 +497,49 @@ MERGED from [com.google.firebase:firebase-common:20.3.3] /home/blaskevors/.gradl
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.3.3] /home/blaskevors/.gradle/caches/transforms-3/c4e22713682acbc142fa238d2c0712ea/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
 	android:name
-		ADDED from [:firebase_auth] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+		ADDED from [:firebase_auth] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
-ADDED from [:firebase_auth] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+ADDED from [:firebase_auth] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
 	android:value
-		ADDED from [:firebase_auth] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+		ADDED from [:firebase_auth] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 	android:name
-		ADDED from [:firebase_auth] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+		ADDED from [:firebase_auth] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
-ADDED from [:firebase_core] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+ADDED from [:firebase_core] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
 	android:value
-		ADDED from [:firebase_core] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+		ADDED from [:firebase_core] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 	android:name
-		ADDED from [:firebase_core] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+		ADDED from [:firebase_core] /home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
 service#com.baseflow.geolocator.GeolocatorLocationService
-ADDED from [:geolocator_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:56
+ADDED from [:geolocator_android] /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:56
 	android:enabled
-		ADDED from [:geolocator_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-35
+		ADDED from [:geolocator_android] /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-35
 	android:exported
-		ADDED from [:geolocator_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+		ADDED from [:geolocator_android] /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
 	android:foregroundServiceType
-		ADDED from [:geolocator_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-53
+		ADDED from [:geolocator_android] /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-53
 	android:name
-		ADDED from [:geolocator_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-77
+		ADDED from [:geolocator_android] /home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:camera_android] /home/blaskevors/Desktop/Workspace/FPD/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from [:camera_android] /home/blaskevors/Desktop/Workspace/FPD/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-68
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
-ADDED from [:image_picker_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+ADDED from [:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
 	android:grantUriPermissions
-		ADDED from [:image_picker_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+		ADDED from [:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
 	android:authorities
-		ADDED from [:image_picker_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+		ADDED from [:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
 	android:exported
-		ADDED from [:image_picker_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+		ADDED from [:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
 	android:name
-		ADDED from [:image_picker_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+		ADDED from [:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:image_picker_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+ADDED from [:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
 	android:resource
-		ADDED from [:image_picker_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+		ADDED from [:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
 	android:name
-		ADDED from [:image_picker_android] /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+		ADDED from [:image_picker_android] /home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:22.1.1] /home/blaskevors/.gradle/caches/transforms-3/63ab1573eca7908336f4c0e945625364/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:26:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/blaskevors/.gradle/caches/transforms-3/d13f85a74b2ddcacea25b0db65795ae3/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79

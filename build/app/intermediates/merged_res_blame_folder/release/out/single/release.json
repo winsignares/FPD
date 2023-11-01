@@ -797,7 +797,7 @@
     },
     {
         "merged": "com.mysecurityjojma.dev.app-merged_res-41:/xml_flutter_image_picker_file_paths.xml.flat",
-        "source": "com.mysecurityjojma.dev.app-packaged_res-50:/xml/flutter_image_picker_file_paths.xml"
+        "source": "com.mysecurityjojma.dev.app-packaged_res-51:/xml/flutter_image_picker_file_paths.xml"
     },
     {
         "merged": "com.mysecurityjojma.dev.app-merged_res-41:/drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -1905,7 +1905,7 @@
     },
     {
         "merged": "com.mysecurityjojma.dev.app-merged_res-41:/layout_go_to_setting.xml.flat",
-        "source": "com.mysecurityjojma.dev.app-packaged_res-51:/layout/go_to_setting.xml"
+        "source": "com.mysecurityjojma.dev.app-packaged_res-52:/layout/go_to_setting.xml"
     },
     {
         "merged": "com.mysecurityjojma.dev.app-merged_res-41:/color_common_google_signin_btn_text_dark.xml.flat",

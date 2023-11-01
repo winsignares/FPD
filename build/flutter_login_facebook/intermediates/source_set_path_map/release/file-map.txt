@@ -16,9 +16,9 @@ ru.innim.flutter_login_facebook-jetified-appcompat-resources-1.1.0-14 /home/blas
 ru.innim.flutter_login_facebook-lifecycle-runtime-2.3.0-15 /home/blaskevors/.gradle/caches/transforms-3/e0992584515e4ffd405331176031b344/transformed/lifecycle-runtime-2.3.0/res
 ru.innim.flutter_login_facebook-main-16 /home/blaskevors/.pub-cache/hosted/pub.dev/flutter_login_facebook-1.8.0/android/src/main/res
 ru.innim.flutter_login_facebook-release-17 /home/blaskevors/.pub-cache/hosted/pub.dev/flutter_login_facebook-1.8.0/android/src/release/res
-ru.innim.flutter_login_facebook-pngs-18 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_login_facebook/generated/res/pngs/release
-ru.innim.flutter_login_facebook-resValues-19 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_login_facebook/generated/res/resValues/release
-ru.innim.flutter_login_facebook-rs-20 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_login_facebook/generated/res/rs/release
-ru.innim.flutter_login_facebook-mergeReleaseResources-21 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_login_facebook/intermediates/incremental/release/mergeReleaseResources/merged.dir
-ru.innim.flutter_login_facebook-mergeReleaseResources-22 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_login_facebook/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-ru.innim.flutter_login_facebook-merged_res-23 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_login_facebook/intermediates/merged_res/release
+ru.innim.flutter_login_facebook-pngs-18 /home/blaskevors/Desktop/Workspace/FPD/build/flutter_login_facebook/generated/res/pngs/release
+ru.innim.flutter_login_facebook-resValues-19 /home/blaskevors/Desktop/Workspace/FPD/build/flutter_login_facebook/generated/res/resValues/release
+ru.innim.flutter_login_facebook-rs-20 /home/blaskevors/Desktop/Workspace/FPD/build/flutter_login_facebook/generated/res/rs/release
+ru.innim.flutter_login_facebook-mergeReleaseResources-21 /home/blaskevors/Desktop/Workspace/FPD/build/flutter_login_facebook/intermediates/incremental/release/mergeReleaseResources/merged.dir
+ru.innim.flutter_login_facebook-mergeReleaseResources-22 /home/blaskevors/Desktop/Workspace/FPD/build/flutter_login_facebook/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+ru.innim.flutter_login_facebook-merged_res-23 /home/blaskevors/Desktop/Workspace/FPD/build/flutter_login_facebook/intermediates/merged_res/release

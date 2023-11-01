@@ -1,4 +1,4 @@
-#Mon Oct 16 15:39:42 COT 2023
-base.0=/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+#Thu Oct 26 14:08:22 COT 2023
+base.0=/home/blaskevors/Desktop/Workspace/FPD/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

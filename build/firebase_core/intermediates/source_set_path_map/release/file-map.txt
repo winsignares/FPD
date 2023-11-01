@@ -6,9 +6,9 @@ io.flutter.plugins.firebase.core.firebase_core-jetified-firebase-common-20.3.3-4
 io.flutter.plugins.firebase.core.firebase_core-jetified-play-services-basement-18.1.0-5 /home/blaskevors/.gradle/caches/transforms-3/d1c0f7fe3284a07a251885da1583a88b/transformed/jetified-play-services-basement-18.1.0/res
 io.flutter.plugins.firebase.core.firebase_core-main-6 /home/blaskevors/.pub-cache/hosted/pub.dev/firebase_core-2.15.1/android/src/main/res
 io.flutter.plugins.firebase.core.firebase_core-release-7 /home/blaskevors/.pub-cache/hosted/pub.dev/firebase_core-2.15.1/android/src/release/res
-io.flutter.plugins.firebase.core.firebase_core-pngs-8 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_core/generated/res/pngs/release
-io.flutter.plugins.firebase.core.firebase_core-resValues-9 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_core/generated/res/resValues/release
-io.flutter.plugins.firebase.core.firebase_core-rs-10 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_core/generated/res/rs/release
-io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-11 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/merged.dir
-io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-12 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-io.flutter.plugins.firebase.core.firebase_core-merged_res-13 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_core/intermediates/merged_res/release
+io.flutter.plugins.firebase.core.firebase_core-pngs-8 /home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/generated/res/pngs/release
+io.flutter.plugins.firebase.core.firebase_core-resValues-9 /home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/generated/res/resValues/release
+io.flutter.plugins.firebase.core.firebase_core-rs-10 /home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/generated/res/rs/release
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-11 /home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-12 /home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.core.firebase_core-merged_res-13 /home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/intermediates/merged_res/release

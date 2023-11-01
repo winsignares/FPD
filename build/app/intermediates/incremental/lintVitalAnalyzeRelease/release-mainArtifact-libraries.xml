@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
-      jars="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/app/intermediates/flutter/release/libs.jar"
-      resolved="__local_aars__:/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
+      name="__local_aars__:/home/blaskevors/Desktop/Workspace/FPD/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+      jars="/home/blaskevors/Desktop/Workspace/FPD/build/app/intermediates/flutter/release/libs.jar"
+      resolved="__local_aars__:/home/blaskevors/Desktop/Workspace/FPD/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
   <library
-      name="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android@@:firebase_auth::release"
-      jars="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_auth/.transforms/e4b4fa680c5b8b56403fe0f95dcf5748/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_auth/.transforms/e4b4fa680c5b8b56403fe0f95dcf5748/transformed/out/jars/libs/R.jar"
+      name="/home/blaskevors/Desktop/Workspace/FPD/android@@:firebase_auth::release"
+      jars="/home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/.transforms/773e97aa31de5895c88fb89e8b2b6ff0/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/.transforms/773e97aa31de5895c88fb89e8b2b6ff0/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.firebase.auth:firebase_auth:unspecified"
-      folder="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_auth/.transforms/e4b4fa680c5b8b56403fe0f95dcf5748/transformed/out"
+      folder="/home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/.transforms/773e97aa31de5895c88fb89e8b2b6ff0/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -17,10 +17,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android@@:firebase_core::release"
-      jars="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_core/.transforms/b53e2033bcfe93e1d5397e87b0816594/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_core/.transforms/b53e2033bcfe93e1d5397e87b0816594/transformed/out/jars/libs/R.jar"
+      name="/home/blaskevors/Desktop/Workspace/FPD/android@@:firebase_core::release"
+      jars="/home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/.transforms/afe132d56e56ba89a92c70f025fbe691/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/.transforms/afe132d56e56ba89a92c70f025fbe691/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.firebase.core:firebase_core:unspecified"
-      folder="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_core/.transforms/b53e2033bcfe93e1d5397e87b0816594/transformed/out"
+      folder="/home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/.transforms/afe132d56e56ba89a92c70f025fbe691/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -30,10 +30,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android@@:geolocator_android::release"
-      jars="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/.transforms/3993c0c3ec554873f17d05bd4e9afaee/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/.transforms/3993c0c3ec554873f17d05bd4e9afaee/transformed/out/jars/libs/R.jar"
+      name="/home/blaskevors/Desktop/Workspace/FPD/android@@:geolocator_android::release"
+      jars="/home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/.transforms/7dae0437d511fbf9e29b184ed3e85bc0/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/.transforms/7dae0437d511fbf9e29b184ed3e85bc0/transformed/out/jars/libs/R.jar"
       resolved="com.baseflow.geolocator:geolocator_android:unspecified"
-      folder="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/geolocator_android/.transforms/3993c0c3ec554873f17d05bd4e9afaee/transformed/out"
+      folder="/home/blaskevors/Desktop/Workspace/FPD/build/geolocator_android/.transforms/7dae0437d511fbf9e29b184ed3e85bc0/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -43,10 +43,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android@@:flutter_plugin_android_lifecycle::release"
-      jars="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_plugin_android_lifecycle/.transforms/1b8bc09a33b5d1d95ea44e5bcfd3d6e7/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_plugin_android_lifecycle/.transforms/1b8bc09a33b5d1d95ea44e5bcfd3d6e7/transformed/out/jars/libs/R.jar"
+      name="/home/blaskevors/Desktop/Workspace/FPD/android@@:flutter_plugin_android_lifecycle::release"
+      jars="/home/blaskevors/Desktop/Workspace/FPD/build/flutter_plugin_android_lifecycle/.transforms/4c8555339dc21ee90523b730a6a064e1/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/Workspace/FPD/build/flutter_plugin_android_lifecycle/.transforms/4c8555339dc21ee90523b730a6a064e1/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.flutter_plugin_android_lifecycle:flutter_plugin_android_lifecycle:unspecified"
-      folder="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_plugin_android_lifecycle/.transforms/1b8bc09a33b5d1d95ea44e5bcfd3d6e7/transformed/out"
+      folder="/home/blaskevors/Desktop/Workspace/FPD/build/flutter_plugin_android_lifecycle/.transforms/4c8555339dc21ee90523b730a6a064e1/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -56,10 +56,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android@@:flutter_login_facebook::release"
-      jars="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_login_facebook/.transforms/15d73ce2212451454b664e644e661d35/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_login_facebook/.transforms/15d73ce2212451454b664e644e661d35/transformed/out/jars/libs/R.jar"
+      name="/home/blaskevors/Desktop/Workspace/FPD/android@@:flutter_login_facebook::release"
+      jars="/home/blaskevors/Desktop/Workspace/FPD/build/flutter_login_facebook/.transforms/02459e8bf6cf9df36f9a416d0029f909/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/Workspace/FPD/build/flutter_login_facebook/.transforms/02459e8bf6cf9df36f9a416d0029f909/transformed/out/jars/libs/R.jar"
       resolved="ru.innim.flutter_login_facebook:flutter_login_facebook:unspecified"
-      folder="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_login_facebook/.transforms/15d73ce2212451454b664e644e661d35/transformed/out"
+      folder="/home/blaskevors/Desktop/Workspace/FPD/build/flutter_login_facebook/.transforms/02459e8bf6cf9df36f9a416d0029f909/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -69,10 +69,23 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android@@:google_maps_flutter_android::release"
-      jars="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/google_maps_flutter_android/.transforms/7e517b162eb9007b35d422c2a3655d83/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/google_maps_flutter_android/.transforms/7e517b162eb9007b35d422c2a3655d83/transformed/out/jars/libs/R.jar"
+      name="/home/blaskevors/Desktop/Workspace/FPD/android@@:camera_android::release"
+      jars="/home/blaskevors/Desktop/Workspace/FPD/build/camera_android/.transforms/a8e082f32425760249ed5245d148d9da/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/Workspace/FPD/build/camera_android/.transforms/a8e082f32425760249ed5245d148d9da/transformed/out/jars/libs/R.jar"
+      resolved="io.flutter.plugins.camera:camera_android:unspecified"
+      folder="/home/blaskevors/Desktop/Workspace/FPD/build/camera_android/.transforms/a8e082f32425760249ed5245d148d9da/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="/home/blaskevors/Desktop/Workspace/FPD/android@@:google_maps_flutter_android::release"
+      jars="/home/blaskevors/Desktop/Workspace/FPD/build/google_maps_flutter_android/.transforms/4c1643d884f419061dc700ca3ea2672f/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/Workspace/FPD/build/google_maps_flutter_android/.transforms/4c1643d884f419061dc700ca3ea2672f/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.googlemaps:google_maps_flutter_android:unspecified"
-      folder="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/google_maps_flutter_android/.transforms/7e517b162eb9007b35d422c2a3655d83/transformed/out"
+      folder="/home/blaskevors/Desktop/Workspace/FPD/build/google_maps_flutter_android/.transforms/4c1643d884f419061dc700ca3ea2672f/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -82,10 +95,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android@@:image_picker_android::release"
-      jars="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/.transforms/ef3d07f7b72e00f69396c9b0cacd4e4e/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/.transforms/ef3d07f7b72e00f69396c9b0cacd4e4e/transformed/out/jars/libs/R.jar"
+      name="/home/blaskevors/Desktop/Workspace/FPD/android@@:image_picker_android::release"
+      jars="/home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/.transforms/622e842259b3feffec464635c873520d/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/.transforms/622e842259b3feffec464635c873520d/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.imagepicker:image_picker_android:unspecified"
-      folder="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/image_picker_android/.transforms/ef3d07f7b72e00f69396c9b0cacd4e4e/transformed/out"
+      folder="/home/blaskevors/Desktop/Workspace/FPD/build/image_picker_android/.transforms/622e842259b3feffec464635c873520d/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -95,10 +108,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android@@:google_sign_in_android::release"
-      jars="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/google_sign_in_android/.transforms/d005860f925db094f0c5ce5c6c8904af/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/google_sign_in_android/.transforms/d005860f925db094f0c5ce5c6c8904af/transformed/out/jars/libs/R.jar"
+      name="/home/blaskevors/Desktop/Workspace/FPD/android@@:google_sign_in_android::release"
+      jars="/home/blaskevors/Desktop/Workspace/FPD/build/google_sign_in_android/.transforms/e540feb2565efb51e0dae83bc6fa3c19/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/Workspace/FPD/build/google_sign_in_android/.transforms/e540feb2565efb51e0dae83bc6fa3c19/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.googlesignin:google_sign_in_android:unspecified"
-      folder="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/google_sign_in_android/.transforms/d005860f925db094f0c5ce5c6c8904af/transformed/out"
+      folder="/home/blaskevors/Desktop/Workspace/FPD/build/google_sign_in_android/.transforms/e540feb2565efb51e0dae83bc6fa3c19/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -108,10 +121,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android@@:local_auth_android::release"
-      jars="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/local_auth_android/.transforms/dc605384d44edeb3cee3b05f4d977e4c/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/local_auth_android/.transforms/dc605384d44edeb3cee3b05f4d977e4c/transformed/out/jars/libs/R.jar"
+      name="/home/blaskevors/Desktop/Workspace/FPD/android@@:local_auth_android::release"
+      jars="/home/blaskevors/Desktop/Workspace/FPD/build/local_auth_android/.transforms/7e10060c45c99afaf9450ec5b4f7981d/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/Workspace/FPD/build/local_auth_android/.transforms/7e10060c45c99afaf9450ec5b4f7981d/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.localauth:local_auth_android:unspecified"
-      folder="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/local_auth_android/.transforms/dc605384d44edeb3cee3b05f4d977e4c/transformed/out"
+      folder="/home/blaskevors/Desktop/Workspace/FPD/build/local_auth_android/.transforms/7e10060c45c99afaf9450ec5b4f7981d/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -121,10 +134,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/android@@:flutter_secure_storage::release"
-      jars="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_secure_storage/.transforms/cb5e4fabaa520b35d7758d9ebf42fb6c/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_secure_storage/.transforms/cb5e4fabaa520b35d7758d9ebf42fb6c/transformed/out/jars/libs/R.jar"
+      name="/home/blaskevors/Desktop/Workspace/FPD/android@@:flutter_secure_storage::release"
+      jars="/home/blaskevors/Desktop/Workspace/FPD/build/flutter_secure_storage/.transforms/97706fedd51eeb41d483d897e32da9cb/transformed/out/jars/classes.jar:/home/blaskevors/Desktop/Workspace/FPD/build/flutter_secure_storage/.transforms/97706fedd51eeb41d483d897e32da9cb/transformed/out/jars/libs/R.jar"
       resolved="com.it_nomads.fluttersecurestorage:flutter_secure_storage:unspecified"
-      folder="/home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/flutter_secure_storage/.transforms/cb5e4fabaa520b35d7758d9ebf42fb6c/transformed/out"
+      folder="/home/blaskevors/Desktop/Workspace/FPD/build/flutter_secure_storage/.transforms/97706fedd51eeb41d483d897e32da9cb/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

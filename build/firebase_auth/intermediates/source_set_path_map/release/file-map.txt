@@ -8,10 +8,10 @@ io.flutter.plugins.firebase.auth.firebase_auth-jetified-firebase-common-20.3.3-6
 io.flutter.plugins.firebase.auth.firebase_auth-jetified-play-services-basement-18.1.0-7 /home/blaskevors/.gradle/caches/transforms-3/d1c0f7fe3284a07a251885da1583a88b/transformed/jetified-play-services-basement-18.1.0/res
 io.flutter.plugins.firebase.auth.firebase_auth-main-8 /home/blaskevors/.pub-cache/hosted/pub.dev/firebase_auth-4.7.3/android/src/main/res
 io.flutter.plugins.firebase.auth.firebase_auth-release-9 /home/blaskevors/.pub-cache/hosted/pub.dev/firebase_auth-4.7.3/android/src/release/res
-io.flutter.plugins.firebase.auth.firebase_auth-pngs-10 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_auth/generated/res/pngs/release
-io.flutter.plugins.firebase.auth.firebase_auth-resValues-11 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_auth/generated/res/resValues/release
-io.flutter.plugins.firebase.auth.firebase_auth-rs-12 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_auth/generated/res/rs/release
-io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-13 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/merged.dir
-io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-14 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-io.flutter.plugins.firebase.auth.firebase_auth-merged_res-15 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_auth/intermediates/merged_res/release
-io.flutter.plugins.firebase.auth.firebase_auth-packaged_res-16 /home/blaskevors/Desktop/colaboration/learning-git/FPD-main/build/firebase_core/intermediates/packaged_res/release
+io.flutter.plugins.firebase.auth.firebase_auth-pngs-10 /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/generated/res/pngs/release
+io.flutter.plugins.firebase.auth.firebase_auth-resValues-11 /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/generated/res/resValues/release
+io.flutter.plugins.firebase.auth.firebase_auth-rs-12 /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/generated/res/rs/release
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-13 /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-14 /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.auth.firebase_auth-merged_res-15 /home/blaskevors/Desktop/Workspace/FPD/build/firebase_auth/intermediates/merged_res/release
+io.flutter.plugins.firebase.auth.firebase_auth-packaged_res-16 /home/blaskevors/Desktop/Workspace/FPD/build/firebase_core/intermediates/packaged_res/release
