@@ -34,9 +34,9 @@ class logscreen extends StatefulWidget {
 
 class _logscreenState extends State<logscreen> {
   @override
-  final user = TextEditingController();
+  final email = TextEditingController();
   final password = TextEditingController();
-  String users = "";
+  String emails = "";
   String passwords = "";
 
   final LocalAuthentication _localAuthentication = LocalAuthentication();
@@ -82,10 +82,10 @@ class _logscreenState extends State<logscreen> {
               ),
               margin: EdgeInsets.only(left: 50, right: 50, top: 20, bottom: 15),
               child: TextField(
-                controller: user,
+                controller: email,
                 decoration: InputDecoration(
                     border: InputBorder.none,
-                    hintText: "User",
+                    hintText: "Email",
                     hintStyle: TextStyle(
                       fontFamily: "mregular",
                       fontSize: 20,
@@ -125,10 +125,10 @@ class _logscreenState extends State<logscreen> {
                   margin: EdgeInsets.only(left: 10, right: 15, top: 30),
                   child: ElevatedButton(
                     onPressed: () async {
-                      users = user.text;
+                      emails = email.text;
                       passwords = password.text;
 
-                      if (users == "" || passwords == "") {
+                      if (emails == "" || passwords == "") {
                         showDialog(
                           context: context,
                           builder: (BuildContext context) {
@@ -159,6 +159,7 @@ class _logscreenState extends State<logscreen> {
                         );
                       } else {
                         login();
+                        FocusScope.of(context).unfocus();
                       }
                     },
                     child: Text(
@@ -289,10 +290,10 @@ class _logscreenState extends State<logscreen> {
 
     if (isAuthenticated) {
       final storage = FlutterSecureStorage();
-      String? storedUser = (await _storage.read(key: 'usuario'));
+      String? storedEmail = (await _storage.read(key: 'email'));
       String? storedPassword = (await _storage.read(key: 'password'));
 
-      if (storedUser == null || storedPassword == null) {
+      if (storedEmail == null || storedPassword == null) {
         showDialog(
           context: context,
           builder: (BuildContext context) {
@@ -324,7 +325,7 @@ class _logscreenState extends State<logscreen> {
       } else {
         // coloca los datos automaticamente una vez se verifica la huella o rostro
         setState(() {
-          user.text = storedUser;
+          email.text = storedEmail;
           password.text = storedPassword;
           login();
         });
@@ -333,9 +334,9 @@ class _logscreenState extends State<logscreen> {
   }
 
   // metodo para guardar las credenciales del usuario en el almacenamiento seguro de flutter
-  Future<void> _saveCredentials(String User, String password) async {
+  Future<void> _saveCredentials(String Email, String password) async {
     final storage = FlutterSecureStorage();
-    await storage.write(key: 'User', value: User);
+    await storage.write(key: 'Email', value: Email);
     await storage.write(key: 'Password', value: password);
   }
 
@@ -343,7 +344,7 @@ class _logscreenState extends State<logscreen> {
     String? storedUsuario = await _storage.read(key: 'usuario');
     String? storedPassword = await _storage.read(key: 'password');
     String? storedEmail = await _storage.read(key: 'email');
-    if (storedUsuario == user.text && storedPassword == password.text) {
+    if (storedEmail == email.text && storedPassword == password.text) {
       Navigator.push(
         context,
         MaterialPageRoute(

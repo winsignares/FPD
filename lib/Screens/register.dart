@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_login_facebook/flutter_login_facebook.dart';
 import 'package:appsemillero/Screens/login.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import 'package:appsemillero/post.dart';
+import 'package:http/http.dart' as http;
+import 'dart:async';
+import 'dart:convert';
 
 class registerscreen extends StatelessWidget {
   const registerscreen({super.key});
@@ -26,12 +31,29 @@ class regscreen extends StatefulWidget {
 class _regscreenState extends State<regscreen> {
   final FlutterSecureStorage _storage = FlutterSecureStorage();
   bool palomita = false;
-  final userr = TextEditingController();
+  final phone_numberr = TextEditingController();
   final passwordr = TextEditingController();
   final emailr = TextEditingController();
-  String usertemp = "";
+  int phone_numbertemp = 0;
   String passwordtemp = "";
   String emailtemp = "";
+
+  //funciones para call APIS
+  Future<Post?>? post;
+
+  void createuser() {
+    setState(() {
+      post = createPost(
+          emailr.text, passwordr.text, int.parse(phone_numberr.text));
+    });
+  }
+
+  // test funcion tipo arma a la bd con lo que tenga el textfield email
+  void tipoarmapost() {
+    setState(() {
+      post = tipoarmaPost(emailr.text);
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -78,10 +100,10 @@ class _regscreenState extends State<regscreen> {
                     color: Color(0xffEAEAEA),
                     borderRadius: BorderRadius.circular(10)),
                 child: TextField(
-                    controller: userr,
+                    controller: emailr,
                     decoration: InputDecoration(
                       border: InputBorder.none,
-                      hintText: "User",
+                      hintText: "Email",
                       hintStyle: TextStyle(
                         fontFamily: "mregular",
                         fontSize: 20,
@@ -115,10 +137,12 @@ class _regscreenState extends State<regscreen> {
                     color: Color(0xffEAEAEA),
                     borderRadius: BorderRadius.circular(10)),
                 child: TextField(
-                    controller: emailr,
+                    keyboardType: TextInputType.number,
+                    inputFormatters: [FilteringTextInputFormatter.digitsOnly],
+                    controller: phone_numberr,
                     decoration: InputDecoration(
                       border: InputBorder.none,
-                      hintText: "Email",
+                      hintText: "Phone Number",
                       hintStyle: TextStyle(
                         fontFamily: "mregular",
                         fontSize: 20,
@@ -161,6 +185,7 @@ class _regscreenState extends State<regscreen> {
               child: ElevatedButton(
                 onPressed: () {
                   //verifica que se hayan leido los terminos y condiciones y esten todos los campos requeridos
+
                   registerdata();
                 },
                 child: Text(
@@ -224,18 +249,19 @@ class _regscreenState extends State<regscreen> {
   Future<void> registerdata() async {
     bool isValid = emailr.text.contains('@');
     if (palomita == true &&
-        userr.text != '' &&
+        phone_numberr.text != '' &&
         passwordr.text != '' &&
         emailr.text != '' &&
         isValid == true) {
-      usertemp = userr.text;
+      createuser();
+      phone_numbertemp.toString();
       passwordtemp = passwordr.text;
       emailtemp = emailr.text;
-      await _storage.write(key: 'usuario', value: usertemp);
+      await _storage.write(key: 'phone_number', value: phone_numbertemp.toString());
       await _storage.write(key: 'password', value: passwordtemp);
       await _storage.write(key: 'email', value: emailtemp);
-      Navigator.of(context)
-          .pushReplacement(MaterialPageRoute<Null>(builder: (BuildContext context) {
+      Navigator.of(context).pushReplacement(
+          MaterialPageRoute<Null>(builder: (BuildContext context) {
         return new logscreen();
       }));
     } else {
@@ -405,5 +431,112 @@ _facebookLogin() async {
       break;
     case FacebookLoginStatus.error:
       break;
+  }
+}
+
+// Testeo apis
+
+// api GET request
+
+Future<Post> fetchPost() async {
+  final uri = Uri.parse("http://127.0.0.1:8000/");
+  final response = await http.get(uri);
+
+  if (response.statusCode == 200) {
+    return Post.fromJson(json.decode(response.body));
+  } else {
+    throw Exception('Fallo al cargar el post');
+  }
+}
+
+// api POST request registrar usuario
+
+Future<Post> createPost(String email, String password, int telefono) async {
+  Map<String, dynamic> request = {
+    'correo': email,
+    'contraseña': password,
+    'telefono': telefono,
+  };
+
+  final uri = Uri.parse("http://10.0.2.2:8000/users/post");
+  final response = await http.post(
+    uri,
+    body: json.encode(request), // Convierte los datos a formato JSON
+    headers: {
+      'Content-Type': 'application/json'
+    }, // Configura el encabezado 'Content-Type'
+  );
+
+  if (response.statusCode == 201) {
+    return Post.fromJson(json.decode(response.body));
+  } else {
+    // detalle de errores
+    print('Error en la solicitud:');
+    print('Código de estado: ${response.statusCode}');
+    print('Cuerpo de la respuesta: ${response.body}');
+
+    throw Exception(
+        'Fallo al cargar el post. Código de estado: ${response.statusCode}');
+  }
+}
+
+// api POST request tipo arma
+
+Future<Post> tipoarmaPost(String nombre) async {
+  Map<String, dynamic> request = {
+    'nombre': nombre,
+  };
+
+  final uri = Uri.parse("http://10.0.2.2:8000/guntipe/post");
+  final response = await http.post(
+    uri,
+    body: json.encode(request), // Convierte los datos a formato JSON
+    headers: {
+      'Content-Type': 'application/json'
+    }, // Configura el encabezado 'Content-Type'
+  );
+
+  if (response.statusCode == 201) {
+    return Post.fromJson(json.decode(response.body));
+  } else {
+    // detalle de errores
+    print('Error en la solicitud:');
+    print('Código de estado: ${response.statusCode}');
+    print('Cuerpo de la respuesta: ${response.body}');
+
+    throw Exception(
+        'Fallo al cargar el post. Código de estado: ${response.statusCode}');
+  }
+}
+
+// api PUT request
+
+Future<Post> updatePost(String correo, String contrasenna, int telefono) async {
+  Map<String, dynamic> request = {
+    'id': "3",
+    'correo': correo,
+    'contraseña': contrasenna,
+    'telefono': telefono
+  };
+  final uri = Uri.parse("http://127.0.0.1:8000/users/put/3");
+  final response = await http.put(uri, body: request);
+
+  if (response.statusCode == 200) {
+    return Post.fromJson(json.decode(response.body));
+  } else {
+    throw Exception('Fallo al cargar el post');
+  }
+}
+
+// api DELETE request
+
+Future<Post?>? deletePost() async {
+  final uri = Uri.parse("http://127.0.0.1:8000/users/delete/3");
+  final response = await http.delete(uri);
+
+  if (response.statusCode == 200) {
+    return null;
+  } else {
+    throw Exception('Fallo al cargar el post');
   }
 }

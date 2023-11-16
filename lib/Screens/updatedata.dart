@@ -5,6 +5,11 @@ import 'package:image_picker/image_picker.dart';
 import 'dart:io';
 import 'package:flutter/services.dart';
 import 'package:camera/camera.dart';
+import 'package:appsemillero/post.dart';
+import 'package:http/http.dart' as http;
+import 'dart:async';
+import 'dart:convert';
+
 
 class updatedata extends StatelessWidget {
   const updatedata({super.key});
@@ -36,18 +41,17 @@ class UpdateData extends StatefulWidget {
 
 class _UpdateDataState extends State<UpdateData> {
   File? _imageFile;
+  final picker = ImagePicker();
 
-  Future<void> _pickImage(ImageSource source) async {
-
-    WidgetsFlutterBinding.ensureInitialized();
-    final cameras = await availableCameras();
-    final firstCamera = cameras.first;
-    final picker = ImagePicker();
-    if (source == ImageSource.camera && Platform.isAndroid) {
-      print('La cámara no está disponible en este dispositivo.');
-      return;
+  Future<void> _pickImage(op) async {
+    var pickedFile;
+    
+    if (op == 1){
+        pickedFile = await picker.pickImage(source: ImageSource.camera);
+    }else {
+        pickedFile = await picker.pickImage(source: ImageSource.gallery);
     }
-    final pickedFile = await picker.pickImage(source: source);
+
 
     if (pickedFile != null) {
       setState(() {
@@ -55,6 +59,8 @@ class _UpdateDataState extends State<UpdateData> {
       });
     }
   }
+
+
 
   opciones(context) {
     showDialog(
@@ -68,7 +74,7 @@ class _UpdateDataState extends State<UpdateData> {
                   InkWell(
                     onTap: () {
                       Navigator.pop(context);
-                      _pickImage(ImageSource.camera);
+                      _pickImage(1);
                     },
                     child: Container(
                       padding: EdgeInsets.all(20),
@@ -97,7 +103,7 @@ class _UpdateDataState extends State<UpdateData> {
                     onTap: () {
                       Navigator.pop(
                           context); // Cierra el diálogo antes de seleccionar la imagen
-                      _pickImage(ImageSource.gallery);
+                      _pickImage(2);
                     },
                     child: Container(
                       padding: EdgeInsets.all(20),
@@ -142,6 +148,45 @@ class _UpdateDataState extends State<UpdateData> {
   final TextEditingController _textControllerDigit1 = TextEditingController();
   final TextEditingController _textControllerDigit2 = TextEditingController();
   final TextEditingController _emailController = TextEditingController();
+
+
+  Future<Post?>? post;
+
+
+  void updatealldata() {
+    setState(() {
+      post = updateinfoPost(
+        _textController1.text, _textController2.text, _textController4.text );
+    });
+  }
+
+
+  Future<Post> updateinfoPost(String nombre, String apellido, String usuario ) async {
+    Map<String, dynamic> request = {
+      'nombre': nombre,
+      'apellido': apellido,
+      'usuario': usuario
+    };
+    final uri = Uri.parse("http://10.0.2.2:8000/users/put/1");
+    final response = await http.put(uri, body: json.encode(request), // Convierte los datos a formato JSON
+      headers: {
+        'Content-Type': 'application/json'
+      }, // Configura el encabezado 'Content-Type'
+    );
+
+    if (response.statusCode == 200) {
+      return Post.fromJson(json.decode(response.body));
+    } else {
+      // detalle de errores
+      print('Error en la solicitud:');
+      print('Código de estado: ${response.statusCode}');
+      print('Cuerpo de la respuesta: ${response.body}');
+
+      throw Exception(
+          'Fallo al cargar el post. Código de estado: ${response.statusCode}');
+    }
+  }
+
 
   void validateEmail(String input) {
     setState(() {
@@ -248,6 +293,7 @@ class _UpdateDataState extends State<UpdateData> {
                                       fontSize: 15),
                                 ),
                                 child: Text('Subir foto'),
+
                               ),
                               SizedBox(
                                 height: 15,
@@ -276,7 +322,8 @@ class _UpdateDataState extends State<UpdateData> {
                                               controller: _textController1,
                                               decoration: const InputDecoration(
                                                   labelText: "Nombre",
-                                                  labelStyle: TextStyle(fontSize: 18)),
+                                                  labelStyle: TextStyle(fontSize: 18,fontFamily: "mmedium",
+                                                  )),
                                               onChanged: (namevalue) {
                                                 setState(() {
                                                   _name = namevalue;
@@ -291,7 +338,7 @@ class _UpdateDataState extends State<UpdateData> {
                                               controller: _textController2,
                                               decoration: const InputDecoration(
                                                   labelText: "Apellido",
-                                                  labelStyle: TextStyle(fontSize: 18)),
+                                                  labelStyle: TextStyle(fontSize: 18,fontFamily: "mmedium",)),
                                               onChanged: (newvalue) {
                                                 setState(() {
                                                   _lastName = newvalue;
@@ -302,19 +349,14 @@ class _UpdateDataState extends State<UpdateData> {
                                               height: 7,
                                             ),
                                             TextField(
-                                              controller: _textControllerDigit1,
+                                              controller: _textController4,
                                               decoration: const InputDecoration(
-                                                  labelText: "C.C",
-                                                  labelStyle: TextStyle(fontSize: 18)),
-                                              keyboardType: TextInputType.number,
-                                              inputFormatters: <TextInputFormatter>[
-                                                FilteringTextInputFormatter.digitsOnly
-                                              ],
-                                              onChanged: (newvalue) {
-                                                setState(() {
-                                                  _id = int.parse(newvalue);
-                                                });
-                                              },
+                                                  labelText: "Usuario",
+                                                  labelStyle: TextStyle(fontSize: 18,fontFamily: "mmedium",)),
+
+
+
+
                                             ),
                                             const SizedBox(
                                               height: 7,
@@ -322,8 +364,8 @@ class _UpdateDataState extends State<UpdateData> {
                                             TextField(
                                               controller: _textControllerDigit2,
                                               decoration: const InputDecoration(
-                                                  labelText: "Teléfono",
-                                                  labelStyle: TextStyle(fontSize: 18)),
+                                                  labelText: "Contrasenna",
+                                                  labelStyle: TextStyle(fontSize: 18,fontFamily: "mmedium",)),
                                               keyboardType: TextInputType.number,
                                               inputFormatters: <TextInputFormatter>[
                                                 FilteringTextInputFormatter.digitsOnly
@@ -339,10 +381,12 @@ class _UpdateDataState extends State<UpdateData> {
                                               enabled: false,
                                               controller: _textController3,
                                               decoration: const InputDecoration(
-                                                  labelText: "Usuario",
+                                                  labelText: "Celular",
                                                   labelStyle: TextStyle(
                                                       fontWeight: FontWeight.w600,
-                                                      fontSize: 18)),
+                                                      fontSize: 18,
+                                                    fontFamily: "mblack",)
+                                              ),
                                               onChanged: (newvalue) {
                                                 setState(() {
                                                   _user = newvalue;
@@ -362,7 +406,9 @@ class _UpdateDataState extends State<UpdateData> {
                                                 labelText: "Email",
                                                 labelStyle: TextStyle(
                                                     fontWeight: FontWeight.w600,
-                                                    fontSize: 18),
+                                                    fontSize: 18,
+                                                  fontFamily: "mblack",
+                                                ),
                                                 errorText: _isValid
                                                     ? null
                                                     : 'No es un correo válido',
@@ -380,9 +426,12 @@ class _UpdateDataState extends State<UpdateData> {
                                                   child:
                                                   ElevatedButton(
 
-                                                    onPressed: () {},
+                                                    onPressed: () {
+                                                      updatealldata();
+                                                    },
                                                     child: Text('Actualizar',
-                                                        style: TextStyle(fontSize: 18)),
+                                                        style: TextStyle(fontSize: 18,
+                                                          fontFamily: "mmedium",)),
 
                                                     style: ElevatedButton.styleFrom(
                                                       backgroundColor: Color(0xff448493),
@@ -418,3 +467,7 @@ class _UpdateDataState extends State<UpdateData> {
     );
   }
 }
+
+
+// api PUT request actualizar datos
+
