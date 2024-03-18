@@ -41,7 +41,7 @@
         android:name="android.app.Application"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:icon="@mipmap/ic_launcher"
-        android:label="appsemillero"
+        android:label="My Security"
         android:supportsRtl="true" >
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"

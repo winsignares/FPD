@@ -4,24 +4,24 @@
             "outputFile": "com.baseflow.geolocator.geolocator_android-merged_res-13:/values-iw/values-iw.xml",
             "map": [
                 {
-                    "source": "/home/blaskevors/.gradle/caches/transforms-3/f0ed66b4ade954bb7684b3f0181e9486/transformed/core-1.9.0/res/values-iw/values-iw.xml",
+                    "source": "C:\\Users\\jhoan\\.gradle\\caches\\transforms-3\\d1c0f7fe3284a07a251885da1583a88b\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-iw\\values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "113",
+                        "endOffsets": "308"
                     },
                     "to": {
-                        "startLines": "20",
+                        "startLines": "10",
                         "startColumns": "4",
-                        "startOffsets": "2126",
-                        "endColumns": "100",
-                        "endOffsets": "2222"
+                        "startOffsets": "1020",
+                        "endColumns": "117",
+                        "endOffsets": "1133"
                     }
                 },
                 {
-                    "source": "/home/blaskevors/.gradle/caches/transforms-3/a8b8b21d5e94a6fc88fb1ca64074115a/transformed/jetified-play-services-base-18.1.0/res/values-iw/values.xml",
+                    "source": "C:\\Users\\jhoan\\.gradle\\caches\\transforms-3\\a8b8b21d5e94a6fc88fb1ca64074115a\\transformed\\jetified-play-services-base-18.1.0\\res\\values-iw\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,20 +38,20 @@
                     }
                 },
                 {
-                    "source": "/home/blaskevors/.gradle/caches/transforms-3/d1c0f7fe3284a07a251885da1583a88b/transformed/jetified-play-services-basement-18.1.0/res/values-iw/values.xml",
+                    "source": "C:\\Users\\jhoan\\.gradle\\caches\\transforms-3\\f0ed66b4ade954bb7684b3f0181e9486\\transformed\\core-1.9.0\\res\\values-iw\\values-iw.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "113",
-                        "endOffsets": "308"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "10",
+                        "startLines": "20",
                         "startColumns": "4",
-                        "startOffsets": "1020",
-                        "endColumns": "117",
-                        "endOffsets": "1133"
+                        "startOffsets": "2126",
+                        "endColumns": "100",
+                        "endOffsets": "2222"
                     }
                 }
             ]
@@ -60,24 +60,24 @@
             "outputFile": "com.baseflow.geolocator.geolocator_android-mergeReleaseResources-11:/values-iw/values-iw.xml",
             "map": [
                 {
-                    "source": "/home/blaskevors/.gradle/caches/transforms-3/f0ed66b4ade954bb7684b3f0181e9486/transformed/core-1.9.0/res/values-iw/values-iw.xml",
+                    "source": "C:\\Users\\jhoan\\.gradle\\caches\\transforms-3\\d1c0f7fe3284a07a251885da1583a88b\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-iw\\values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "113",
+                        "endOffsets": "308"
                     },
                     "to": {
-                        "startLines": "20",
+                        "startLines": "10",
                         "startColumns": "4",
-                        "startOffsets": "2126",
-                        "endColumns": "100",
-                        "endOffsets": "2222"
+                        "startOffsets": "1020",
+                        "endColumns": "117",
+                        "endOffsets": "1133"
                     }
                 },
                 {
-                    "source": "/home/blaskevors/.gradle/caches/transforms-3/a8b8b21d5e94a6fc88fb1ca64074115a/transformed/jetified-play-services-base-18.1.0/res/values-iw/values.xml",
+                    "source": "C:\\Users\\jhoan\\.gradle\\caches\\transforms-3\\a8b8b21d5e94a6fc88fb1ca64074115a\\transformed\\jetified-play-services-base-18.1.0\\res\\values-iw\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -94,20 +94,20 @@
                     }
                 },
                 {
-                    "source": "/home/blaskevors/.gradle/caches/transforms-3/d1c0f7fe3284a07a251885da1583a88b/transformed/jetified-play-services-basement-18.1.0/res/values-iw/values.xml",
+                    "source": "C:\\Users\\jhoan\\.gradle\\caches\\transforms-3\\f0ed66b4ade954bb7684b3f0181e9486\\transformed\\core-1.9.0\\res\\values-iw\\values-iw.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "113",
-                        "endOffsets": "308"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "10",
+                        "startLines": "20",
                         "startColumns": "4",
-                        "startOffsets": "1020",
-                        "endColumns": "117",
-                        "endOffsets": "1133"
+                        "startOffsets": "2126",
+                        "endColumns": "100",
+                        "endOffsets": "2222"
                     }
                 }
             ]

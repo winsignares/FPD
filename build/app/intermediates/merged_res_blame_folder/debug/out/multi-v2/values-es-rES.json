@@ -4,7 +4,7 @@
             "outputFile": "com.mysecurityjojma.dev.app-mergeDebugResources-39:/values-es-rES/values-es-rES.xml",
             "map": [
                 {
-                    "source": "/home/blaskevors/.gradle/caches/transforms-3/70e35ceaf31fe6d4f516a60228e09344/transformed/jetified-facebook-login-16.0.1/res/values-es-rES/values-es-rES.xml",
+                    "source": "C:\\Users\\jhoan\\.gradle\\caches\\transforms-3\\70e35ceaf31fe6d4f516a60228e09344\\transformed\\jetified-facebook-login-16.0.1\\res\\values-es-rES\\values-es-rES.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

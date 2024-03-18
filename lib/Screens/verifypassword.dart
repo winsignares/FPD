@@ -11,7 +11,7 @@ class verifpass extends StatelessWidget {
     return MaterialApp(
         title: "RegisterScreen",
         theme: ThemeData(primarySwatch: Colors.blueGrey),
-        home: verifypassword());
+        home: const verifypassword());
   }
 }
 
@@ -25,66 +25,65 @@ class verifypassword extends StatefulWidget {
 class _verifypasswordState extends State<verifypassword> {
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: Color(0xffffffff),
+      backgroundColor: const Color(0xffffffff),
       body: SingleChildScrollView(
-        physics: NeverScrollableScrollPhysics(),
+        physics: const NeverScrollableScrollPhysics(),
         child: Column(
           children: [
-            Container(
-              child: Stack(
-                children: [
-                  Container(
-                    alignment: Alignment.center,
-                    width: 330,
-                    height: 220,
-                    padding: EdgeInsets.only(top: 50),
-                    margin: EdgeInsets.only(left: 100),
-                    decoration: BoxDecoration(
-                      color: Color(0xff448493),
-                      borderRadius:
-                          BorderRadius.only(bottomLeft: Radius.circular(400)),
-                    ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                Container(
+                  width: size.width * 0.8,
+                  height: size.height * 0.28,
+                  decoration: const BoxDecoration(
+                    color: Color(0xff2D148F),
+                    borderRadius:
+                        BorderRadius.only(bottomLeft: Radius.circular(400)),
                   ),
-                ],
-              ),
+                ),
+              ],
             ),
             Container(
-              margin: EdgeInsets.only(top: 70),
+              margin: EdgeInsets.only(top: size.height * 0.1),
               alignment: Alignment.center,
               child: Text(
-                "Forgot Password",
+                "Recuperar contrasenna",
                 style: TextStyle(
                     fontFamily: "mmedium",
-                    fontSize: 25,
-                    color: Color(0xff448493)),
+                    fontSize: size.height * 0.03,
+                    color: const Color(0xff2D148F)),
               ),
             ),
             Container(
-              padding:
-                  EdgeInsets.only(top: 30, bottom: 15, left: 60, right: 60),
+              padding: EdgeInsets.symmetric(
+                  horizontal: size.width * 0.1, vertical: size.height * 0.03),
               child: Text(
-                "Enter the verification code we just sent you on your email address",
+                "Ingresa el código de verificación que te acabamos de enviar a tu dirección de correo electrónico",
                 style: TextStyle(
-                    fontSize: 15,
-                    color: Color(0xff448493),
+                    fontSize: size.height * 0.02,
+                    color: const Color(0xff2D148F),
                     fontFamily: "mregular"),
                 textAlign: TextAlign.center,
               ),
             ),
             Container(
-              margin: EdgeInsets.only(left: 50, right: 50, top: 20, bottom: 15),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    padding: EdgeInsets.only(left: 10, right: 10, bottom: 10),
+                    padding: EdgeInsets.only(
+                        left: size.width * 0.03,
+                        right: size.width * 0.03,
+                        bottom: size.height * 0.013),
                     decoration: BoxDecoration(
-                        color: Color(0xffEAEAEA),
+                        color: const Color(0xffDBDBDB),
                         borderRadius: BorderRadius.circular(10)),
-                    width: 50,
-                    height: 50,
-                    child: TextField(
+                    width: size.width * 0.13,
+                    height: size.height * 0.065,
+                    child: const TextField(
                       decoration: InputDecoration(
                         counterText: '',
                       ),
@@ -95,14 +94,17 @@ class _verifypasswordState extends State<verifypassword> {
                     ),
                   ),
                   Container(
-                    margin: EdgeInsets.only(left: 15, right: 15),
-                    padding: EdgeInsets.only(left: 10, right: 10, bottom: 10),
+                    margin: EdgeInsets.symmetric(horizontal: size.width * 0.04),
+                    padding: EdgeInsets.only(
+                        left: size.width * 0.03,
+                        right: size.width * 0.03,
+                        bottom: size.height * 0.013),
                     decoration: BoxDecoration(
-                        color: Color(0xffEAEAEA),
+                        color: const Color(0xffDBDBDB),
                         borderRadius: BorderRadius.circular(10)),
-                    width: 50,
-                    height: 50,
-                    child: TextField(
+                    width: size.width * 0.13,
+                    height: size.height * 0.065,
+                    child: const TextField(
                       decoration: InputDecoration(
                         counterText: '',
                       ),
@@ -113,14 +115,17 @@ class _verifypasswordState extends State<verifypassword> {
                     ),
                   ),
                   Container(
-                    padding: EdgeInsets.only(left: 10, right: 10, bottom: 10),
-                    margin: EdgeInsets.only(right: 15),
+                    margin: EdgeInsets.only(right: size.width * 0.04),
+                    padding: EdgeInsets.only(
+                        left: size.width * 0.03,
+                        right: size.width * 0.03,
+                        bottom: size.height * 0.013),
                     decoration: BoxDecoration(
-                        color: Color(0xffEAEAEA),
+                        color: const Color(0xffDBDBDB),
                         borderRadius: BorderRadius.circular(10)),
-                    width: 50,
-                    height: 50,
-                    child: TextField(
+                    width: size.width * 0.13,
+                    height: size.height * 0.065,
+                    child: const TextField(
                       decoration: InputDecoration(
                         counterText: '',
                       ),
@@ -131,13 +136,16 @@ class _verifypasswordState extends State<verifypassword> {
                     ),
                   ),
                   Container(
-                    padding: EdgeInsets.only(left: 10, right: 10, bottom: 10),
+                    padding: EdgeInsets.only(
+                        left: size.width * 0.03,
+                        right: size.width * 0.03,
+                        bottom: size.height * 0.013),
                     decoration: BoxDecoration(
-                        color: Color(0xffEAEAEA),
+                        color: const Color(0xffDBDBDB),
                         borderRadius: BorderRadius.circular(10)),
-                    width: 50,
-                    height: 50,
-                    child: TextField(
+                    width: size.width * 0.13,
+                    height: size.height * 0.065,
+                    child: const TextField(
                       decoration: InputDecoration(
                         counterText: '',
                       ),
@@ -152,41 +160,41 @@ class _verifypasswordState extends State<verifypassword> {
             ),
             Container(
               alignment: Alignment.center,
-              margin: EdgeInsets.symmetric(horizontal: 70, vertical: 18),
+              margin: EdgeInsets.symmetric(
+                  horizontal: size.width * 0.2, vertical: size.height * 0.025),
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.of(context)
-                      .pushReplacement(MaterialPageRoute<Null>(builder: (BuildContext context) {
-                    return new logscreen();
+                  Navigator.of(context).pushReplacement(
+                      MaterialPageRoute<Null>(builder: (BuildContext context) {
+                    return new verifypassword();
                   }));
                 },
                 child: Text(
-                  "VERIFY",
+                  "VERIFICAR",
                   style: TextStyle(
-                    fontSize: 20,
+                    fontSize: size.height * 0.024,
                     fontFamily: "mregular",
                     color: Colors.white,
                   ),
                 ),
                 style: ElevatedButton.styleFrom(
-                    minimumSize: Size(double.infinity, 50),
-                    padding: EdgeInsets.symmetric(horizontal: 20),
-                    backgroundColor: Color(0xff448493),
+                    minimumSize: Size(size.width * 0.7, size.height * 0.06),
+                    backgroundColor: const Color(0xff2D148F),
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(30))),
               ),
             ),
             Container(
-                padding:
-                    EdgeInsets.only(top: 0, bottom: 15, left: 60, right: 60),
+                alignment: Alignment.center,
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      "If you didn’t receive a code!  ",
+                      "Si no recibiste el codigo,",
                       style: TextStyle(
-                          fontSize: 15,
-                          color: Color(0xff448493),
-                          fontFamily: "mregular"),
+                          fontSize: size.height * 0.018,
+                          color: const Color(0xff2D148F),
+                          fontFamily: "mlight"),
                       textAlign: TextAlign.center,
                     ),
                     TextButton(
@@ -195,12 +203,13 @@ class _verifypasswordState extends State<verifypassword> {
                           context: context,
                           builder: (BuildContext context) {
                             return AlertDialog(
-                              title: Text('Check your imbox!'),
-                              content: Text('The code has forwarded.'),
+                              title: const Text('Check your imbox!'),
+                              content: const Text('The code has forwarded.',
+                                  style: TextStyle(color: Colors.black)),
                               actions: [
                                 ElevatedButton(
                                   style: ElevatedButton.styleFrom(
-                                    backgroundColor: Color(0xff448493),
+                                    backgroundColor: const Color(0xff2D148F),
                                     shape: RoundedRectangleBorder(
                                       borderRadius: BorderRadius.circular(18),
                                     ),
@@ -208,11 +217,11 @@ class _verifypasswordState extends State<verifypassword> {
                                   onPressed: () {
                                     Navigator.of(context).pop();
                                   },
-                                  child: Text(
+                                  child: const Text(
                                     'Retry',
                                     style: TextStyle(
-                                      fontFamily: "mregular",
-                                    ),
+                                        fontFamily: "mregular",
+                                        color: Colors.white),
                                   ),
                                 ),
                               ],
@@ -223,8 +232,8 @@ class _verifypasswordState extends State<verifypassword> {
                       child: Text(
                         "Resend",
                         style: TextStyle(
-                            fontSize: 15,
-                            color: Color(0xff448493),
+                            fontSize: size.height * 0.018,
+                            color: const Color(0xff2D148F),
                             fontFamily: "mblack"),
                       ),
                     ),

@@ -4,7 +4,7 @@
             "outputFile": "ru.innim.flutter_login_facebook-merged_res-22:/values-te/values-te.xml",
             "map": [
                 {
-                    "source": "/home/blaskevors/.gradle/caches/transforms-3/70e35ceaf31fe6d4f516a60228e09344/transformed/jetified-facebook-login-16.0.1/res/values-te/values-te.xml",
+                    "source": "C:\\Users\\jhoan\\.gradle\\caches\\transforms-3\\70e35ceaf31fe6d4f516a60228e09344\\transformed\\jetified-facebook-login-16.0.1\\res\\values-te\\values-te.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/blaskevors/.gradle/caches/transforms-3/ba1a7c5229a4b33653db0004711bbc2c/transformed/core-1.6.0/res/values-te/values-te.xml",
+                    "source": "C:\\Users\\jhoan\\.gradle\\caches\\transforms-3\\ba1a7c5229a4b33653db0004711bbc2c\\transformed\\core-1.6.0\\res\\values-te\\values-te.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/blaskevors/.gradle/caches/transforms-3/8fb569f256970985c8c9a4426a816fa7/transformed/appcompat-1.1.0/res/values-te/values-te.xml",
+                    "source": "C:\\Users\\jhoan\\.gradle\\caches\\transforms-3\\8fb569f256970985c8c9a4426a816fa7\\transformed\\appcompat-1.1.0\\res\\values-te\\values-te.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -60,7 +60,7 @@
             "outputFile": "ru.innim.flutter_login_facebook-mergeReleaseResources-20:/values-te/values-te.xml",
             "map": [
                 {
-                    "source": "/home/blaskevors/.gradle/caches/transforms-3/70e35ceaf31fe6d4f516a60228e09344/transformed/jetified-facebook-login-16.0.1/res/values-te/values-te.xml",
+                    "source": "C:\\Users\\jhoan\\.gradle\\caches\\transforms-3\\70e35ceaf31fe6d4f516a60228e09344\\transformed\\jetified-facebook-login-16.0.1\\res\\values-te\\values-te.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -77,7 +77,7 @@
                     }
                 },
                 {
-                    "source": "/home/blaskevors/.gradle/caches/transforms-3/ba1a7c5229a4b33653db0004711bbc2c/transformed/core-1.6.0/res/values-te/values-te.xml",
+                    "source": "C:\\Users\\jhoan\\.gradle\\caches\\transforms-3\\ba1a7c5229a4b33653db0004711bbc2c\\transformed\\core-1.6.0\\res\\values-te\\values-te.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -94,7 +94,7 @@
                     }
                 },
                 {
-                    "source": "/home/blaskevors/.gradle/caches/transforms-3/8fb569f256970985c8c9a4426a816fa7/transformed/appcompat-1.1.0/res/values-te/values-te.xml",
+                    "source": "C:\\Users\\jhoan\\.gradle\\caches\\transforms-3\\8fb569f256970985c8c9a4426a816fa7\\transformed\\appcompat-1.1.0\\res\\values-te\\values-te.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

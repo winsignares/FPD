@@ -1,7 +1,7 @@
+import 'package:appsemillero/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:appsemillero/Screens/verifypassword.dart';
-
 
 class forgpass extends StatelessWidget {
   const forgpass({super.key});
@@ -11,7 +11,7 @@ class forgpass extends StatelessWidget {
     return MaterialApp(
         title: "RegisterScreen",
         theme: ThemeData(primarySwatch: Colors.blueGrey),
-        home: forgotpassword());
+        home: const forgotpassword());
   }
 }
 
@@ -25,57 +25,56 @@ class forgotpassword extends StatefulWidget {
 class _forgotpasswordState extends State<forgotpassword> {
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: Color(0xffffffff),
+      backgroundColor: const Color(0xffffffff),
       body: SingleChildScrollView(
-        physics: NeverScrollableScrollPhysics(),
+        physics: const NeverScrollableScrollPhysics(),
         child: Column(
           children: [
-            Container(
-              child: Stack(
-                children: [
-                  Container(
-                    alignment: Alignment.center,
-                    width: 330,
-                    height: 220,
-                    padding: EdgeInsets.only(top: 50),
-                    margin: EdgeInsets.only(left: 100),
-                    decoration: BoxDecoration(
-                      color: Color(0xff448493),
-                      borderRadius:
-                          BorderRadius.only(bottomLeft: Radius.circular(400)),
-                    ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                Container(
+                  width: size.width * 0.8,
+                  height: size.height * 0.28,
+                  decoration: const BoxDecoration(
+                    color: Color(0xff2D148F),
+                    borderRadius:
+                        BorderRadius.only(bottomLeft: Radius.circular(400)),
                   ),
-                ],
-              ),
+                ),
+              ],
             ),
             Container(
-              margin: EdgeInsets.only(top: 70),
+              margin: EdgeInsets.only(top: size.height * 0.1),
               alignment: Alignment.center,
               child: Text(
-                "Forgot Password",
+                "Recuperar contrasenna",
                 style: TextStyle(
                     fontFamily: "mmedium",
-                    fontSize: 25,
-                    color: Color(0xff448493)),
+                    fontSize: size.height * 0.03,
+                    color: Color(0xff2D148F)),
               ),
             ),
             Container(
-              padding: EdgeInsets.only(top: 30, bottom: 15, left: 60, right: 60),
+              padding: EdgeInsets.symmetric(
+                  horizontal: size.width * 0.1, vertical: size.height * 0.03),
               child: Text(
-                "Enter the email address associated  with ur account",
+                "Ingrese la dirección de correo electrónico asociada con su cuenta",
                 style: TextStyle(
-                    fontSize: 15,
-                    color: Color(0xff448493),
+                    fontSize: size.height * 0.02,
+                    color: const Color(0xff2D148F),
                     fontFamily: "mregular"),
-                    textAlign: TextAlign.center,
+                textAlign: TextAlign.center,
               ),
             ),
             Container(
-              margin: EdgeInsets.only(left: 50, right: 50, top: 20, bottom: 15),
-              padding: EdgeInsets.only(left: 30, right: 15),
+              margin: EdgeInsets.symmetric(
+                  horizontal: size.width * 0.12, vertical: size.height * 0.009),
+              padding: EdgeInsets.symmetric(horizontal: size.width * 0.06),
               decoration: BoxDecoration(
-                  color: Color(0xffEAEAEA),
+                  color: const Color(0xffDBDBDB),
                   borderRadius: BorderRadius.circular(10)),
               child: TextField(
                 decoration: InputDecoration(
@@ -83,35 +82,34 @@ class _forgotpasswordState extends State<forgotpassword> {
                   hintText: "Email ",
                   hintStyle: TextStyle(
                     fontFamily: "mregular",
-                    fontSize: 20,
-                    color: Color(0xff448493),
+                    fontSize: size.height * 0.022,
+                    color: const Color(0xff939393),
                   ),
                 ),
               ),
             ),
             Container(
               alignment: Alignment.center,
-              margin: EdgeInsets.symmetric(horizontal: 70, vertical: 18),
+              margin: EdgeInsets.symmetric(
+                  horizontal: size.width * 0.2, vertical: size.height * 0.025),
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.of(context)
-                      .pushReplacement(MaterialPageRoute<Null>(builder: (BuildContext context) {
+                  Navigator.of(context).pushReplacement(
+                      MaterialPageRoute<Null>(builder: (BuildContext context) {
                     return new verifypassword();
                   }));
                 },
                 child: Text(
-                  "SEND",
+                  "ENVIAR",
                   style: TextStyle(
-                    fontSize: 20,
+                    fontSize: size.height * 0.024,
                     fontFamily: "mregular",
                     color: Colors.white,
                   ),
                 ),
                 style: ElevatedButton.styleFrom(
-                    minimumSize: Size(double.infinity, 50),
-
-                    padding: EdgeInsets.symmetric(horizontal: 20),
-                    backgroundColor: Color(0xff448493),
+                    minimumSize: Size(size.width * 0.7, size.height * 0.06),
+                    backgroundColor: const Color(0xff2D148F),
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(30))),
               ),

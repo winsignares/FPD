@@ -1,3 +1,4 @@
+import 'package:appsemillero/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_login_facebook/flutter_login_facebook.dart';
@@ -17,7 +18,7 @@ class registerscreen extends StatelessWidget {
     return MaterialApp(
         title: "RegisterScreen",
         theme: ThemeData(primarySwatch: Colors.blueGrey),
-        home: regscreen());
+        home: const regscreen());
   }
 }
 
@@ -29,7 +30,7 @@ class regscreen extends StatefulWidget {
 }
 
 class _regscreenState extends State<regscreen> {
-  final FlutterSecureStorage _storage = FlutterSecureStorage();
+  final FlutterSecureStorage _storage = const FlutterSecureStorage();
   bool palomita = false;
   final phone_numberr = TextEditingController();
   final passwordr = TextEditingController();
@@ -57,66 +58,68 @@ class _regscreenState extends State<regscreen> {
 
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
+
     return Scaffold(
-      backgroundColor: Color(0xffffffff),
+      backgroundColor: const Color(0xffffffff),
       body: SingleChildScrollView(
-        physics: NeverScrollableScrollPhysics(),
+        physics: const NeverScrollableScrollPhysics(),
         child: Column(
           children: [
-            Container(
-              child: Stack(
-                children: [
-                  Container(
-                    alignment: Alignment.center,
-                    width: 330,
-                    height: 220,
-                    padding: EdgeInsets.only(top: 50),
-                    margin: EdgeInsets.only(right: 100),
-                    decoration: BoxDecoration(
-                      color: Color(0xff448493),
-                      borderRadius:
-                          BorderRadius.only(bottomRight: Radius.circular(400)),
-                    ),
+            Row(
+              children: [
+                Container(
+                  width: size.width * 0.8,
+                  height: size.height * 0.28,
+                  decoration: const BoxDecoration(
+                    color: Color(0xff2D148F),
+                    borderRadius:
+                        BorderRadius.only(bottomRight: Radius.circular(400)),
                   ),
-                ],
-              ),
+                ),
+              ],
             ),
             Container(
-              margin: EdgeInsets.only(top: 60),
+              margin: EdgeInsets.only(top: size.height * 0.05),
               alignment: Alignment.center,
               child: Text(
-                "Sign up",
+                "Registrarse",
                 style: TextStyle(
-                    fontFamily: "mmedium",
-                    fontSize: 25,
-                    color: Color(0xff448493)),
+                    fontFamily: "mregular",
+                    fontSize: ((size.width + size.height) / 2 * 0.04),
+                    color: const Color(0xff2D148F)),
               ),
             ),
             Container(
-                margin:
-                    EdgeInsets.only(left: 50, right: 50, top: 20, bottom: 15),
-                padding: EdgeInsets.only(left: 30, right: 15),
+                margin: EdgeInsets.only(
+                    left: size.width * 0.12,
+                    right: size.width * 0.12,
+                    top: size.width * 0.04,
+                    bottom: size.width * 0.03),
+                padding: EdgeInsets.symmetric(horizontal: size.width * 0.08),
                 decoration: BoxDecoration(
-                    color: Color(0xffEAEAEA),
-                    borderRadius: BorderRadius.circular(10)),
+                    color: const Color(0xffDBDBDB),
+                    borderRadius: BorderRadius.circular(30)),
                 child: TextField(
                     controller: emailr,
                     decoration: InputDecoration(
                       border: InputBorder.none,
                       hintText: "Email",
                       hintStyle: TextStyle(
-                        fontFamily: "mregular",
-                        fontSize: 20,
-                        color: Color(0xff448493),
+                        fontFamily: "mxlight",
+                        fontSize: ((size.width + size.height) / 2 * 0.03),
+                        color: const Color(0xff676565),
                       ),
                     ))),
             Container(
-                margin:
-                    EdgeInsets.only(left: 50, right: 50, top: 5, bottom: 15),
-                padding: EdgeInsets.only(left: 30, right: 15),
+                margin: EdgeInsets.only(
+                    left: size.width * 0.12,
+                    right: size.width * 0.12,
+                    bottom: size.width * 0.03),
+                padding: EdgeInsets.symmetric(horizontal: size.width * 0.08),
                 decoration: BoxDecoration(
-                    color: Color(0xffEAEAEA),
-                    borderRadius: BorderRadius.circular(10)),
+                    color: const Color(0xffDBDBDB),
+                    borderRadius: BorderRadius.circular(30)),
                 child: TextField(
                     controller: passwordr,
                     obscureText: true,
@@ -124,29 +127,31 @@ class _regscreenState extends State<regscreen> {
                       border: InputBorder.none,
                       hintText: "Password",
                       hintStyle: TextStyle(
-                        fontFamily: "mregular",
-                        fontSize: 20,
-                        color: Color(0xff448493),
+                        fontFamily: "mxlight",
+                        fontSize: ((size.width + size.height) / 2 * 0.03),
+                        color: const Color(0xff676565),
                       ),
                     ))),
             Container(
-                margin:
-                    EdgeInsets.only(left: 50, right: 50, top: 5, bottom: 15),
-                padding: EdgeInsets.only(left: 30, right: 15),
+                margin: EdgeInsets.only(
+                    left: size.width * 0.12,
+                    right: size.width * 0.12,
+                    bottom: size.width * 0.03),
+                padding: EdgeInsets.symmetric(horizontal: size.width * 0.08),
                 decoration: BoxDecoration(
-                    color: Color(0xffEAEAEA),
-                    borderRadius: BorderRadius.circular(10)),
+                    color: const Color(0xffDBDBDB),
+                    borderRadius: BorderRadius.circular(30)),
                 child: TextField(
                     keyboardType: TextInputType.number,
                     inputFormatters: [FilteringTextInputFormatter.digitsOnly],
                     controller: phone_numberr,
                     decoration: InputDecoration(
                       border: InputBorder.none,
-                      hintText: "Phone Number",
+                      hintText: "Telefono",
                       hintStyle: TextStyle(
-                        fontFamily: "mregular",
-                        fontSize: 20,
-                        color: Color(0xff448493),
+                        fontFamily: "mxlight",
+                        fontSize: ((size.width + size.height) / 2 * 0.03),
+                        color: const Color(0xff676565),
                       ),
                     ))),
             Container(
@@ -168,11 +173,11 @@ class _regscreenState extends State<regscreen> {
                       },
                     ),
                     Text(
-                      'Accept terms and conditions',
+                      'Acepto los Terminos y Condiciones',
                       style: TextStyle(
                         fontFamily: "mregular",
-                        fontSize: 15,
-                        color: Color(0xff448493),
+                        fontSize: ((size.width + size.height) / 2 * 0.025),
+                        color: const Color(0xff2D148F),
                       ),
                     ),
                   ],
@@ -181,7 +186,8 @@ class _regscreenState extends State<regscreen> {
             ),
             Container(
               alignment: Alignment.center,
-              margin: EdgeInsets.symmetric(horizontal: 70, vertical: 18),
+              margin: EdgeInsets.symmetric(
+                  horizontal: size.width * 0.18, vertical: size.height * 0.02),
               child: ElevatedButton(
                 onPressed: () {
                   //verifica que se hayan leido los terminos y condiciones y esten todos los campos requeridos
@@ -189,32 +195,37 @@ class _regscreenState extends State<regscreen> {
                   registerdata();
                 },
                 child: Text(
-                  "REGISTER",
+                  "REGISTRARME",
                   style: TextStyle(
-                    fontSize: 20,
+                    fontSize: ((size.width + size.height) / 2 * 0.03),
                     fontFamily: "mregular",
                     color: Colors.white,
                   ),
                 ),
                 style: ElevatedButton.styleFrom(
-                    minimumSize: Size(double.infinity, 50),
-                    // Ancho extendido y altura de 50
-                    padding: EdgeInsets.symmetric(horizontal: 20),
-                    backgroundColor: Color(0xff448493),
+                    padding: EdgeInsets.symmetric(
+                        horizontal: size.width * 0.12,
+                        vertical: size.height * 0.013),
+                    backgroundColor: const Color(0xff2D148F),
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(30))),
               ),
             ),
             Container(
               alignment: Alignment.center,
-              padding: EdgeInsets.only(left: 60, right: 60, top: 30),
-              child: Divider(
-                color: Color(0xff448493),
-                thickness: 0.5,
+              padding: EdgeInsets.only(
+                  top: size.height * 0.02,
+                  left: size.width * 0.15,
+                  right: size.width * 0.15),
+              child: const Divider(
+                color: Color(0xffA49D9D),
+                thickness: 1,
               ),
             ),
             Container(
+              margin: EdgeInsets.symmetric(vertical: size.height * 0.04),
               child: Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   IconButton(
@@ -222,23 +233,20 @@ class _regscreenState extends State<regscreen> {
                       await _facebookLogin();
                     },
                     icon: Image.asset("assets/fblogo.png",
-                        width: 50, height: 100),
-                    iconSize: 50,
+                        width: size.width * 0.12),
                   ),
                   SizedBox(
-                    width: 30,
+                    width: size.width * 0.07,
                   ),
                   IconButton(
                     onPressed: () async {
                       await signInWithGoogle();
                     },
-                    icon: Image.asset("assets/gmaillogo.png", width: 50),
-                    iconSize: 50,
+                    icon: Image.asset("assets/gmaillogo.png",
+                        width: size.width * 0.12),
                   ),
                 ],
               ),
-              padding: EdgeInsets.only(left: 100, right: 100, top: 20),
-              alignment: Alignment.bottomCenter,
             )
           ],
         ),
@@ -257,7 +265,8 @@ class _regscreenState extends State<regscreen> {
       phone_numbertemp.toString();
       passwordtemp = passwordr.text;
       emailtemp = emailr.text;
-      await _storage.write(key: 'phone_number', value: phone_numbertemp.toString());
+      await _storage.write(
+          key: 'phone_number', value: phone_numbertemp.toString());
       await _storage.write(key: 'password', value: passwordtemp);
       await _storage.write(key: 'email', value: emailtemp);
       Navigator.of(context).pushReplacement(
@@ -269,23 +278,22 @@ class _regscreenState extends State<regscreen> {
         context: context,
         builder: (BuildContext context) {
           return AlertDialog(
-            title: Text('Warning'),
-            content: Text('You need to review the T&C and fill all places.'),
+            title: const Text('Aviso'),
+            content: const Text(
+                'Es necesario revisar los T&C y llenar todos los campos'),
             actions: [
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                    backgroundColor: Color(0xff448493),
+                    backgroundColor: const Color(0xff2D148F),
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(18))),
                 onPressed: () {
                   Navigator.of(context).pop();
                   tacwindow;
                 },
-                child: Text(
-                  'Retry',
-                  style: TextStyle(
-                    fontFamily: "mregular",
-                  ),
+                child: const Text(
+                  'Reintentar',
+                  style: TextStyle(fontFamily: "mregular", color: Colors.white),
                 ),
               ),
             ],
@@ -296,43 +304,38 @@ class _regscreenState extends State<regscreen> {
   }
 
   void tacwindow(BuildContext context) {
+    final size = MediaQuery.of(context).size;
     showModalBottomSheet(
       context: context,
       builder: (BuildContext context) {
         return SingleChildScrollView(
           child: Container(
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.only(
-                topLeft: Radius.circular(15),
-                topRight: Radius.circular(15),
+                topLeft: Radius.circular(30),
+                topRight: Radius.circular(30),
               ),
-              boxShadow: [
-                BoxShadow(
-                  color: Colors.black12,
-                  offset: Offset(0, -2),
-                  blurRadius: 6,
-                ),
-              ],
             ),
             child: Column(
               children: [
                 Container(
                   child: Text(
-                    "Terms and Conditions",
+                    "T&C",
                     style: TextStyle(
-                        fontSize: 20,
+                        fontSize: ((size.width + size.height) / 2 * 0.035),
                         fontFamily: 'mbold',
-                        color: Color(0xff448493)),
+                        color: const Color(0xff2D148F)),
                     textAlign: TextAlign.center,
                   ),
-                  padding: EdgeInsets.only(top: 15, bottom: 15),
+                  margin: EdgeInsets.only(
+                      top: size.height * 0.03, bottom: size.height * 0.02),
                 ),
                 SingleChildScrollView(
-                  padding: EdgeInsets.only(left: 25, right: 25),
+                  padding: EdgeInsets.symmetric(horizontal: size.width * 0.08),
                   child: Column(
                     children: [
-                      Text(
+                      const Text(
                         '1. Lorem ipsum dolor sit amet consectetur. Condimentum varius nibh a tincidunt tincidunt a porttitor facilisis. Sapien diam neque mauris massa accumsan. Et ullamcorper egestas non dui nulla pharetra tempor nunc. Urna suspendisse molestie ultricies risus commodo justo augue velit sem.'
                         '\n\n1.1 Lorem ipsum dolor sit amet consectetur. Condimentum varius nibh a tincidunt tincidunt a porttitor facilisis. Sapien diam neque mauris massa accumsan.'
                         '\n\n1.2 Lorem ipsum dolor sit amet consectetur. Condimentum varius nibh a tincidunt tincidunt a porttitor facilisis. Sapien diam neque mauris massa accumsan.'
@@ -347,9 +350,11 @@ class _regscreenState extends State<regscreen> {
                         '\n\n2.1 Lorem ipsum dolor sit amet consectetur. Condimentum varius nibh a tincidunt tincidunt a porttitor facilisis. Sapien diam neque mauris massa accumsan.'
                         '\n\n2.2 Lorem ipsum dolor sit amet consectetur. Condimentum varius nibh a tincidunt tincidunt a porttitor facilisis. Sapien diam neque mauris massa accumsan.',
                         style: TextStyle(
-                            fontFamily: 'mlight', color: Color(0xff448493)),
+                            fontFamily: 'mlight', color: Color(0xff2D148F)),
                       ),
                       Container(
+                        margin:
+                            EdgeInsets.symmetric(vertical: size.height * 0.02),
                         alignment: Alignment.bottomCenter,
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
@@ -367,11 +372,14 @@ class _regscreenState extends State<regscreen> {
                                       context); // Cerrar la ventana emergente
                                 }
                               },
-                              child: Text('Decline'),
+                              child: const Text(
+                                'Decline',
+                                style: TextStyle(color: Colors.white),
+                              ),
                               style: ElevatedButton.styleFrom(
-                                  primary: Color(0xff448493)),
+                                  primary: const Color(0xff2D148F)),
                             ),
-                            SizedBox(width: 50),
+                            SizedBox(width: size.width * 0.1),
                             ElevatedButton(
                               onPressed: () {
                                 if (palomita == null || !palomita) {
@@ -385,9 +393,12 @@ class _regscreenState extends State<regscreen> {
                                       context); // Cerrar la ventana emergente
                                 }
                               },
-                              child: Text('Accept'),
+                              child: const Text(
+                                'Accept',
+                                style: TextStyle(color: Colors.white),
+                              ),
                               style: ElevatedButton.styleFrom(
-                                  primary: Color(0xff448493)),
+                                  primary: const Color(0xff2D148F)),
                             ),
                           ],
                         ),

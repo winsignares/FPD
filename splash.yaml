@@ -1,0 +1,15 @@
+flutter_native_splash: 
+  color: "#2D148F"
+  color_dark : "#2D148F"
+  image: assets/fondo-morado.png
+  image_dark: assets/fondo-morado.png
+  android: true
+  ios: true
+  web: false
+  android_12:
+    color: "#2D148F"
+    icon_background_color: "#FFFFFF"
+    image: assets/fondo-blanco.png
+    image_dark: assets/fondo-blanco.png
+    color_dark: "#2D148F"
+    icon_background_color_dark: "#FFFFFF"

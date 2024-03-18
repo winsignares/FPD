@@ -1,4 +1,4 @@
-#Tue Oct 31 21:16:37 COT 2023
-base.0=/home/blaskevors/Desktop/Workspace/FPD/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+#Mon Mar 18 12:13:47 COT 2024
+base.0=C\:\\Users\\jhoan\\OneDrive\\Documents\\Workspace\\FPD\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

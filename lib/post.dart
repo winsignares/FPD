@@ -17,9 +17,6 @@ class Post {
   final String Apellido;
   final String Usuario;
 
-
-
-
   Post({
     required this.Email,
     required this.Password,
@@ -29,18 +26,16 @@ class Post {
     required this.Nombre,
     required this.Apellido,
     required this.Usuario,
-
   });
 
   factory Post.fromJson(Map<String, dynamic> json) => Post(
-      Email: json['correo'],
-      Password: json['contraseña'],
-      Phone_number: json['telefono'],
-      GunType: json['nombre'],
-      CrimeType: json['nombre'],
-      Nombre: json['nombre'],
-      Apellido: json['apellido'],
-      Usuario: json['usuario'],
-
-  );
+        Email: json['correo'],
+        Password: json['contraseña'],
+        Phone_number: json['telefono'],
+        GunType: json['nombre'],
+        CrimeType: json['nombre'],
+        Nombre: json['nombre'],
+        Apellido: json['apellido'],
+        Usuario: json['usuario'],
+      );
 }

@@ -1,0 +1,5 @@
+{"logTime": "0308/011911", "correlationVector":"HHIsdjOgRbFMNAB9ptQzl4.1","action":"SyncServerConnectionManagerRequest", "result":"SYNC_SERVER_OK", "context":{"environment":"Prod_EastUS2_000e", "migrationStage":"NotStarted", "server":"GENERAL0100000H"}}
+{"logTime": "0308/011911", "correlationVector":"HHIsdjOgRbFMNAB9ptQzl4","action":"Initial GetUpdates", "result":"", "context":Reason: NEW_CLIENT. cV=HHIsdjOgRbFMNAB9ptQzl4}
+{"logTime": "0308/011911", "correlationVector":"HHIsdjOgRbFMNAB9ptQzl4.2","action":"GetUpdates Response", "result":"SYNCER_OK", "context":Received 1 update(s). cV=HHIsdjOgRbFMNAB9ptQzl4.0;server=GENERAL0100000H;cloudType=Consumer;environment=Prod_EastUS2_000e;migrationStage=NotStarted}
+{"logTime": "0308/011914", "correlationVector":"HlvUeV8uMluErgEAvIOQtM","action":"SyncServerConnectionManagerRequest", "result":"SYNC_SERVER_OK", "context":{"environment":"", "migrationStage":"", "server":""}}
+{"logTime": "0308/011914", "correlationVector":"5NZO4/X7okK8RRa5AN5c4q","action":"Initial GetUpdates", "result":"", "context":Reason: NEW_CLIENT. cV=5NZO4/X7okK8RRa5AN5c4q}

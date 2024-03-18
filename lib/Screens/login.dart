@@ -1,7 +1,5 @@
 import 'package:appsemillero/Screens/homepage.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:flutter_login_facebook/flutter_login_facebook.dart';
 import 'package:appsemillero/Screens/register.dart';
 import 'package:appsemillero/Screens/forgotpassword.dart';
@@ -9,8 +7,6 @@ import 'package:local_auth/local_auth.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_core/firebase_core.dart';
-import '/firebase_options.dart';
 
 class loginscreen extends StatelessWidget {
   const loginscreen({super.key});
@@ -21,7 +17,7 @@ class loginscreen extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: "Login",
         theme: ThemeData(primarySwatch: Colors.blueGrey),
-        home: logscreen());
+        home: const logscreen());
   }
 }
 
@@ -40,7 +36,7 @@ class _logscreenState extends State<logscreen> {
   String passwords = "";
 
   final LocalAuthentication _localAuthentication = LocalAuthentication();
-  final FlutterSecureStorage _storage = FlutterSecureStorage();
+  final FlutterSecureStorage _storage = const FlutterSecureStorage();
   bool _isBiometricAvailable = false;
 
   @override
@@ -51,67 +47,71 @@ class _logscreenState extends State<logscreen> {
   }
 
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
+
     return Scaffold(
-      backgroundColor: Color(0xffffffff),
+      backgroundColor: const Color(0xffffffff),
       body: SingleChildScrollView(
-        physics: NeverScrollableScrollPhysics(),
+        physics: const NeverScrollableScrollPhysics(),
         child: Column(
           children: [
             Container(
-              padding:
-                  EdgeInsets.only(top: 140, left: 140, right: 110, bottom: 50),
+              padding: EdgeInsets.only(
+                  top: size.height * 0.18, bottom: size.height * 0.12),
               alignment: Alignment.center,
-              child: Image.asset("assets/logoapp.png"),
+              child: Text(
+                'MySecurity',
+                style: TextStyle(
+                  fontSize: ((size.width + size.height) / 2) * 0.06,
+                  fontFamily: 'mbold',
+                  color: const Color(0xff2D148F),
+                ),
+              ),
             ),
             Text(
-              "Log in",
+              "Iniciar sesion",
               style: TextStyle(
-                  fontFamily: "mmedium",
-                  color: Color(0xff448493),
-                  fontSize: 25),
+                  fontFamily: "mregular",
+                  color: const Color(0xff2D148F),
+                  fontSize: ((size.width + size.height) / 2) * 0.04),
               textAlign: TextAlign.center,
             ),
             Container(
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(10),
-                color: Color(0xffEAEAEA),
+                borderRadius: BorderRadius.circular(30),
+                color: const Color(0xffDBDBDB),
               ),
-              padding: EdgeInsets.only(
-                left: 30,
-                right: 15,
-              ),
-              margin: EdgeInsets.only(left: 50, right: 50, top: 20, bottom: 15),
+              padding: EdgeInsets.symmetric(horizontal: size.width * 0.08),
+              margin: EdgeInsets.symmetric(
+                  horizontal: size.width * 0.13, vertical: size.height * 0.02),
               child: TextField(
                 controller: email,
                 decoration: InputDecoration(
                     border: InputBorder.none,
                     hintText: "Email",
                     hintStyle: TextStyle(
-                      fontFamily: "mregular",
-                      fontSize: 20,
-                      color: Color(0xff448493),
+                      fontFamily: "mxlight",
+                      fontSize: ((size.width + size.height) / 2) * 0.03,
+                      color: const Color(0xff676565),
                     )),
               ),
             ),
             Container(
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(10),
-                color: Color(0xffEAEAEA),
+                borderRadius: BorderRadius.circular(30),
+                color: const Color(0xffDBDBDB),
               ),
-              padding: EdgeInsets.only(
-                left: 30,
-                right: 15,
-              ),
-              margin: EdgeInsets.only(left: 50, right: 50),
+              padding: EdgeInsets.symmetric(horizontal: size.width * 0.08),
+              margin: EdgeInsets.symmetric(horizontal: size.width * 0.13),
               child: TextField(
                 controller: password,
                 decoration: InputDecoration(
                   border: InputBorder.none,
                   hintText: "Password",
                   hintStyle: TextStyle(
-                      fontFamily: "mregular",
-                      fontSize: 20,
-                      color: Color(0xff448493)),
+                      fontFamily: "mxlight",
+                      fontSize: ((size.width + size.height) / 2) * 0.03,
+                      color: const Color(0xff676565)),
                 ),
                 obscureText: true,
               ),
@@ -120,9 +120,11 @@ class _logscreenState extends State<logscreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                  height: 50,
-                  padding: EdgeInsets.only(top: 0),
-                  margin: EdgeInsets.only(left: 10, right: 15, top: 30),
+                  padding: EdgeInsets.symmetric(
+                      horizontal: size.width * 0.02,
+                      vertical: size.height * 0.002),
+                  margin: EdgeInsets.only(
+                      left: size.width * 0.02, top: size.height * 0.03),
                   child: ElevatedButton(
                     onPressed: () async {
                       emails = email.text;
@@ -133,12 +135,13 @@ class _logscreenState extends State<logscreen> {
                           context: context,
                           builder: (BuildContext context) {
                             return AlertDialog(
-                              title: Text('Warning'),
-                              content: Text('Some places are void'),
+                              title: const Text('Aviso'),
+                              content:
+                                  const Text('Debes llenar todos los campos.'),
                               actions: [
                                 ElevatedButton(
                                   style: ElevatedButton.styleFrom(
-                                      backgroundColor: Color(0xff448493),
+                                      backgroundColor: const Color(0xff2D148F),
                                       shape: RoundedRectangleBorder(
                                           borderRadius:
                                               BorderRadius.circular(18))),
@@ -146,11 +149,11 @@ class _logscreenState extends State<logscreen> {
                                     Navigator.of(context)
                                         .pop(); // cierra el dialogo
                                   },
-                                  child: Text(
-                                    'Retry',
+                                  child: const Text(
+                                    'Reintentar',
                                     style: TextStyle(
-                                      fontFamily: "mregular",
-                                    ),
+                                        fontFamily: "mregular",
+                                        color: Colors.white),
                                   ),
                                 ),
                               ],
@@ -163,89 +166,93 @@ class _logscreenState extends State<logscreen> {
                       }
                     },
                     child: Text(
-                      "ENTER",
+                      "INGRESAR",
                       style: TextStyle(
-                        fontSize: 20,
+                        fontSize: ((size.width + size.height) / 2) * 0.03,
                         fontFamily: "mregular",
                         color: Colors.white,
                       ),
                     ),
                     style: ElevatedButton.styleFrom(
-                        padding: EdgeInsets.symmetric(horizontal: 80),
-                        backgroundColor: Color(0xff448493),
+                        padding: EdgeInsets.symmetric(
+                            horizontal: size.width * 0.14,
+                            vertical: size.height * 0.013),
+                        backgroundColor: const Color(0xff2D148F),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(30))),
                   ),
                 ),
                 Container(
-                  height: 50,
-                  padding: EdgeInsets.only(top: 0),
-                  margin: EdgeInsets.only(top: 30),
+                  padding: EdgeInsets.symmetric(horizontal: size.width * 0.01),
+                  margin: EdgeInsets.only(top: size.height * 0.03),
                   child: IconButton(
                     onPressed: () async {
                       await _authenticate();
                     },
-                    icon: Icon(
+                    icon: const Icon(
                       Icons.fingerprint,
                     ),
-                    color: Color(0xff448493),
-                    iconSize: 33,
+                    color: const Color(0xff2D148F),
+                    iconSize: ((size.width + size.height) / 2) * 0.055,
                   ),
                 ),
               ],
             ),
             Container(
-              margin: EdgeInsets.only(left: 100, right: 100),
               child: TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
                         builder: (contxt) =>
-                            forgotpassword()), // Nombre de la siguiente ruta
+                            const forgotpassword()), // Nombre de la siguiente ruta
                   );
                 },
                 child: Text(
-                  "Forgot my password",
+                  "Olvide mi contrasenna",
                   style: TextStyle(
-                      fontSize: 15,
-                      color: Color(0xff448493),
+                      fontSize: ((size.width + size.height) / 2) * 0.025,
+                      color: const Color(0xff2D148F),
                       fontFamily: "mregular"),
                 ),
               ),
             ),
             Container(
-              margin: EdgeInsets.only(left: 60, right: 60),
-              padding: EdgeInsets.only(top: 35),
+              padding: EdgeInsets.only(top: size.height * 0.04),
               child: TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
                         builder: (contxt) =>
-                            regscreen()), // Nombre de la siguiente ruta
+                            const regscreen()), // Nombre de la siguiente ruta
                   );
                 },
-                child: Text(
-                  "Don't have account yet? Sign up.",
-                  style: TextStyle(
-                      fontSize: 15,
-                      color: Color(0xff448493),
-                      fontFamily: "mregular"),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      "¿Aún no tienes cuenta? ",
+                      style: TextStyle(
+                          fontSize: ((size.width + size.height) / 2) * 0.025,
+                          color: const Color(0xff2D148F),
+                          fontFamily: "mregular"),
+                    ),
+                    Text(
+                      "Registrate",
+                      style: TextStyle(
+                          fontSize: ((size.width + size.height) / 2) * 0.025,
+                          color: const Color(0xff2D148F),
+                          fontFamily: "msbold"),
+                    ),
+                  ],
                 ),
               ),
             ),
             Container(
-              alignment: Alignment.center,
-              padding: EdgeInsets.only(left: 60, right: 60, top: 0),
-              child: Divider(
-                color: Color(0xff448493),
-                thickness: 0.5,
-              ),
-            ),
-            Container(
-              margin: EdgeInsets.only(top: 20),
+              margin: EdgeInsets.symmetric(vertical: size.height * 0.04),
               child: Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   IconButton(
@@ -253,22 +260,20 @@ class _logscreenState extends State<logscreen> {
                       await _facebookLogin();
                     },
                     icon: Image.asset("assets/fblogo.png",
-                        width: 50, height: 100),
-                    iconSize: 50,
+                        width: size.width * 0.12),
                   ),
                   SizedBox(
-                    width: 30,
+                    width: size.width * 0.07,
                   ),
                   IconButton(
                     onPressed: () async {
                       await signInWithGoogle();
                     },
-                    icon: Image.asset("assets/gmaillogo.png", width: 50),
-                    iconSize: 50,
+                    icon: Image.asset("assets/gmaillogo.png",
+                        width: size.width * 0.12),
                   ),
                 ],
               ),
-              alignment: Alignment.bottomCenter,
             )
           ],
         ),
@@ -289,7 +294,7 @@ class _logscreenState extends State<logscreen> {
     );
 
     if (isAuthenticated) {
-      final storage = FlutterSecureStorage();
+      final storage = const FlutterSecureStorage();
       String? storedEmail = (await _storage.read(key: 'email'));
       String? storedPassword = (await _storage.read(key: 'password'));
 
@@ -298,12 +303,12 @@ class _logscreenState extends State<logscreen> {
           context: context,
           builder: (BuildContext context) {
             return AlertDialog(
-              title: Text('Error'),
-              content: Text('Login manually first'),
+              title: const Text('Aviso'),
+              content: const Text('Ingresa tus datos por primera vez'),
               actions: [
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Color(0xff448493),
+                    backgroundColor: const Color(0xff2D148F),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(18),
                     ),
@@ -311,11 +316,10 @@ class _logscreenState extends State<logscreen> {
                   onPressed: () {
                     Navigator.of(context).pop();
                   },
-                  child: Text(
-                    'Retry',
-                    style: TextStyle(
-                      fontFamily: "mregular",
-                    ),
+                  child: const Text(
+                    'Reintentar',
+                    style:
+                        TextStyle(fontFamily: "mregular", color: Colors.white),
                   ),
                 ),
               ],
@@ -335,7 +339,7 @@ class _logscreenState extends State<logscreen> {
 
   // metodo para guardar las credenciales del usuario en el almacenamiento seguro de flutter
   Future<void> _saveCredentials(String Email, String password) async {
-    final storage = FlutterSecureStorage();
+    final storage = const FlutterSecureStorage();
     await storage.write(key: 'Email', value: Email);
     await storage.write(key: 'Password', value: password);
   }
@@ -348,7 +352,8 @@ class _logscreenState extends State<logscreen> {
       Navigator.push(
         context,
         MaterialPageRoute(
-            builder: (contxt) => homepage()), // Nombre de la siguiente ruta
+            builder: (contxt) =>
+                const homepage()), // Nombre de la siguiente ruta
       );
     }
   }

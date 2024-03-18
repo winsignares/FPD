@@ -4,7 +4,7 @@
             "outputFile": "com.mysecurityjojma.dev.app-mergeReleaseResources-39:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/home/blaskevors/.gradle/caches/transforms-3/7e7dcfe933ffaf5b73d743d6d8299ea3/transformed/appcompat-1.2.0/res/values-port/values-port.xml",
+                    "source": "C:\\Users\\jhoan\\.gradle\\caches\\transforms-3\\7e7dcfe933ffaf5b73d743d6d8299ea3\\transformed\\appcompat-1.2.0\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

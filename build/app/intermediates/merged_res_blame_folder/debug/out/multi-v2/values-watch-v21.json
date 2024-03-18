@@ -4,7 +4,7 @@
             "outputFile": "com.mysecurityjojma.dev.app-mergeDebugResources-39:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "/home/blaskevors/.gradle/caches/transforms-3/7e7dcfe933ffaf5b73d743d6d8299ea3/transformed/appcompat-1.2.0/res/values-watch-v21/values-watch-v21.xml",
+                    "source": "C:\\Users\\jhoan\\.gradle\\caches\\transforms-3\\7e7dcfe933ffaf5b73d743d6d8299ea3\\transformed\\appcompat-1.2.0\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

@@ -1,7 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
 
-
 class Datos_reportes {
   String Barrio = "";
   int Estrato = 0;
@@ -20,22 +19,22 @@ class Datos_reportes {
   int id_usuario = 0;
 
   Datos_reportes(
-      this.Barrio,
-      this.Estrato,
-      this.Fecha,
-      this.Hora,
-      this.Afectados,
-      this.Genero_victima,
-      this.Tipo_arma,
-      this.Archivo_evidencia,
-      this.Tipo_zona,
-      this.Municipio,
-      this.Coordenadas,
-      this.descripcion,
-      this.Direccion,
-      this.id_usuario,
-      this.Modalidad_delito,
-      );
+    this.Barrio,
+    this.Estrato,
+    this.Fecha,
+    this.Hora,
+    this.Afectados,
+    this.Genero_victima,
+    this.Tipo_arma,
+    this.Archivo_evidencia,
+    this.Tipo_zona,
+    this.Municipio,
+    this.Coordenadas,
+    this.descripcion,
+    this.Direccion,
+    this.id_usuario,
+    this.Modalidad_delito,
+  );
 
   Datos_reportes.fromJson(Map<String, dynamic> json) {
     Barrio = json["barrio"] ?? "";

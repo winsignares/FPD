@@ -4,7 +4,7 @@
             "outputFile": "io.flutter.plugins.camera.camera_android-merged_res-10:/values-mn/values-mn.xml",
             "map": [
                 {
-                    "source": "/home/blaskevors/.gradle/caches/transforms-3/ba1a7c5229a4b33653db0004711bbc2c/transformed/core-1.6.0/res/values-mn/values-mn.xml",
+                    "source": "C:\\Users\\jhoan\\.gradle\\caches\\transforms-3\\ba1a7c5229a4b33653db0004711bbc2c\\transformed\\core-1.6.0\\res\\values-mn\\values-mn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -19,7 +19,7 @@
             "outputFile": "io.flutter.plugins.camera.camera_android-mergeReleaseResources-8:/values-mn/values-mn.xml",
             "map": [
                 {
-                    "source": "/home/blaskevors/.gradle/caches/transforms-3/ba1a7c5229a4b33653db0004711bbc2c/transformed/core-1.6.0/res/values-mn/values-mn.xml",
+                    "source": "C:\\Users\\jhoan\\.gradle\\caches\\transforms-3\\ba1a7c5229a4b33653db0004711bbc2c\\transformed\\core-1.6.0\\res\\values-mn\\values-mn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

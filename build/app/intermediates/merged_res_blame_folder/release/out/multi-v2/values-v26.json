@@ -4,7 +4,7 @@
             "outputFile": "com.mysecurityjojma.dev.app-mergeReleaseResources-39:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "/home/blaskevors/.gradle/caches/transforms-3/7e7dcfe933ffaf5b73d743d6d8299ea3/transformed/appcompat-1.2.0/res/values-v26/values-v26.xml",
+                    "source": "C:\\Users\\jhoan\\.gradle\\caches\\transforms-3\\7e7dcfe933ffaf5b73d743d6d8299ea3\\transformed\\appcompat-1.2.0\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
